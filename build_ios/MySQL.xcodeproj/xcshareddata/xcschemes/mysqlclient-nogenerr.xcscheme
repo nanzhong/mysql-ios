@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39333089212AF7B90072FF7E"
-               BuildableName = "libmysqlclient-nogenerr.a"
+               BlueprintIdentifier = "393330EF212B19D60072FF7E"
+               BuildableName = "libmysqlclient.a"
                BlueprintName = "mysqlclient-nogenerr"
                ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39333089212AF7B90072FF7E"
-            BuildableName = "libmysqlclient-nogenerr.a"
+            BlueprintIdentifier = "393330EF212B19D60072FF7E"
+            BuildableName = "libmysqlclient.a"
             BlueprintName = "mysqlclient-nogenerr"
             ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39333089212AF7B90072FF7E"
-            BuildableName = "libmysqlclient-nogenerr.a"
+            BlueprintIdentifier = "393330EF212B19D60072FF7E"
+            BuildableName = "libmysqlclient.a"
             BlueprintName = "mysqlclient-nogenerr"
             ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
          </BuildableReference>

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F70DAFC9DBE45E687D64986"
+               BlueprintIdentifier = "B8A3CDF2F82C4BE48CE9D5FA"
                BuildableName = "GenError"
                BlueprintName = "GenError"
                ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F70DAFC9DBE45E687D64986"
+            BlueprintIdentifier = "B8A3CDF2F82C4BE48CE9D5FA"
             BuildableName = "GenError"
             BlueprintName = "GenError"
             ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F70DAFC9DBE45E687D64986"
+            BlueprintIdentifier = "B8A3CDF2F82C4BE48CE9D5FA"
             BuildableName = "GenError"
             BlueprintName = "GenError"
             ReferencedContainer = "container:../build_ios/MySQL.xcodeproj">
