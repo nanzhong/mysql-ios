@@ -1,6 +1,7 @@
 .DS_Store
-cmake_build/build
-MySQL.build
+build_ios/build
+build_ios/*_output_directory
+build_ios/**/MySQL.build
 
 # CMake
 
