@@ -1,1 +1,0 @@
-cd /Users/nan/src/mysql-ios/build && '/usr/local/Cellar/cmake/3.12.1/bin/cpack' -G TGZ --config CPackConfig.cmake
