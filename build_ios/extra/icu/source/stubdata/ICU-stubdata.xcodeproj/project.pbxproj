@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5F6D0C2301D445169A99AE3E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C315BA0C34D243D0B0089E8E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8DEE11FFD3424F64BE95868A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A1CE5E42C59145E8BCF34200 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66148DA02B9D46B186239182 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0519B5D7E8DD4932BF7360FA /* CMake Rules */,
+			);
+			dependencies = (
+				7D42130CF8A44E9AB2E6B94E /* PBXTargetDependency */,
+				A9AF468EBBFC4AE9A890BDFB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BCEDA1F8B2D44B3DB13F00DA /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 97E816FE3DD34472AC4C5596 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				20D98E12D6AE4B92BC380B41 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9E574C44C1D74652AD253302 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		D09DC467E9CF4B169435D500 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 575D7C9BF8EA4912B306CB74 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				422C4E37E15A4F90BDDCE139 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		F6B101EDCE464D9BA2B57F06 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F6AE17DE11642539B784F4B /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				A88051BF53FE463B8A844795 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D0171348EE2549F3BD241683 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03D9BD78F6854971A0ADB14D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/stubdata.cpp */ = {isa = PBXBuildFile; fileRef = 3FB5B8688E9F49FABC2AFB06 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/stubdata.cpp */; };
+		14E01A36A6DF4BB89F87F92E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 15A3AB24470541BF8A94A200 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		030F15625363490DB2484F1C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		78B6EA303CB8407BAD7F4129 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		7D5B1E0ECFD04FCFA351E481 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		D05839F680B447468D563C32 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0D031947822344C4B9C66458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E722143C7B34CD382EBE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6D0C2301D445169A99AE3E;
+			remoteInfo = ZERO_CHECK;
+		};
+		4DBFCCBB133846B3B5F55C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E722143C7B34CD382EBE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1CE5E42C59145E8BCF34200;
+			remoteInfo = ALL_BUILD;
+		};
+		965827D0951946A583DECD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E722143C7B34CD382EBE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6D0C2301D445169A99AE3E;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6C927BA467B456D9A00088A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E722143C7B34CD382EBE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1CE5E42C59145E8BCF34200;
+			remoteInfo = ALL_BUILD;
+		};
+		BC025C1B095846A897D71A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E722143C7B34CD382EBE18A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D175E35520574774B3A139FD;
+			remoteInfo = icustubdata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A3AB24470541BF8A94A200 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3FB5B8688E9F49FABC2AFB06 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/stubdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stubdata.cpp; path = stubdata.cpp; sourceTree = SOURCE_ROOT; };
+		40A469ED8EEB4157BB3394E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D10A2E4B24D74CC09792857D /* icustubdata */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libicustubdata.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		176EDCC56D1E4D1C8E098C0C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5B8688E9F49FABC2AFB06 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/stubdata.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		664F02BF57C944C1879F86E0 /* icustubdata */ = {
+			isa = PBXGroup;
+			children = (
+				176EDCC56D1E4D1C8E098C0C /* Source Files */,
+				15A3AB24470541BF8A94A200 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */,
+			);
+			name = icustubdata;
+			sourceTree = "<group>";
+		};
+		91C1A7DFCD43441D872EE047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D10A2E4B24D74CC09792857D /* icustubdata */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4A98C1099D42DC86FB377D = {
+			isa = PBXGroup;
+			children = (
+				664F02BF57C944C1879F86E0 /* icustubdata */,
+				C0BE3CC6F70F44F29C733E39 /* ALL_BUILD */,
+				91C1A7DFCD43441D872EE047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55AE3343CBC4261A9CF384C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C0BE3CC6F70F44F29C733E39 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B55AE3343CBC4261A9CF384C /* CMake Rules */,
+				40A469ED8EEB4157BB3394E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D175E35520574774B3A139FD /* icustubdata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E7406C4E2FE44159C4ED355 /* Build configuration list for PBXNativeTarget "icustubdata" */;
+			buildPhases = (
+				35058861E132488992AB53B0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E95799C817BF4539A969B6A0 /* PBXTargetDependency */,
+			);
+			name = icustubdata;
+			productName = icustubdata;
+			productReference = D10A2E4B24D74CC09792857D /* icustubdata */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E722143C7B34CD382EBE18A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = CBF9A450259645358DD42E8E /* Build configuration list for PBXProject "ICU-stubdata" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				78B6EA303CB8407BAD7F4129 /* Debug */,
+				030F15625363490DB2484F1C /* Release */,
+				7D5B1E0ECFD04FCFA351E481 /* MinSizeRel */,
+				D05839F680B447468D563C32 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9C4A98C1099D42DC86FB377D;
+			projectDirPath = "/Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata";
+			projectRoot = "";
+			targets = (
+				A1CE5E42C59145E8BCF34200 /* ALL_BUILD */,
+				D09DC467E9CF4B169435D500 /* RUN_TESTS */,
+				5F6D0C2301D445169A99AE3E /* ZERO_CHECK */,
+				D175E35520574774B3A139FD /* icustubdata */,
+				BCEDA1F8B2D44B3DB13F00DA /* install */,
+				F6B101EDCE464D9BA2B57F06 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0519B5D7E8DD4932BF7360FA /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata -f /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		11BDD3CB34DF49339F6AD590 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		20D98E12D6AE4B92BC380B41 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata -f /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		38FD87B4960C4263AE7CD95A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		422C4E37E15A4F90BDDCE139 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata -f /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		58A5D44159ED4443B990A1EB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8CB93FF211CD4F64821C7247 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8DEE11FFD3424F64BE95868A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata -f /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A88051BF53FE463B8A844795 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata -f /Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FFD48EDF94EA4ED1A7E5FE8A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35058861E132488992AB53B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D9BD78F6854971A0ADB14D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/stubdata.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D42130CF8A44E9AB2E6B94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D175E35520574774B3A139FD /* icustubdata */;
+			targetProxy = BC025C1B095846A897D71A3E /* PBXContainerItemProxy */;
+		};
+		9E574C44C1D74652AD253302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1CE5E42C59145E8BCF34200 /* ALL_BUILD */;
+			targetProxy = B6C927BA467B456D9A00088A /* PBXContainerItemProxy */;
+		};
+		A9AF468EBBFC4AE9A890BDFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6D0C2301D445169A99AE3E /* ZERO_CHECK */;
+			targetProxy = 965827D0951946A583DECD57 /* PBXContainerItemProxy */;
+		};
+		D0171348EE2549F3BD241683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1CE5E42C59145E8BCF34200 /* ALL_BUILD */;
+			targetProxy = 4DBFCCBB133846B3B5F55C4D /* PBXContainerItemProxy */;
+		};
+		E95799C817BF4539A969B6A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6D0C2301D445169A99AE3E /* ZERO_CHECK */;
+			targetProxy = 0D031947822344C4B9C66458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000CF4D938BF4156B7044571 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/../common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -ffunction-sections -fdata-sections -fPIC    -fno-omit-frame-pointer -std=c++11  -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icustubdata;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		19319D7FD2AD4BB287766B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/../common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -std=c++11  -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icustubdata;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		29EAB692E1FC453790D11C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		374DDEED763642A091CD4AC4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4949010DD6CE4C3EAD4B717D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4C4FC2EB30A0436D9B9CC7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4CF489574DC7485C9FC60CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4D7F01F3CA55478991109944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/build";
+			};
+			name = Debug;
+		};
+		568D199D708F4052A9261755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5E4B9B0E096945ECBCF8D7B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6E2760F78C9742AB8D936FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/build";
+			};
+			name = Release;
+		};
+		7A60D2EBB1FA435EA1F867BE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		896F4408AD524EB8B88D7E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8BD4BFA5D26641D1BEFF6FA4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8E634744DEE44720AA463902 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/../common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icustubdata;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8ED410BA7AE843949B79D7C4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		956F15ADD56A428397114AE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/build";
+			};
+			name = MinSizeRel;
+		};
+		A62FCED21B0840308B7589DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B82D490C5E0E442AA0977466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		BB398C7BA6C94121A4AFAC37 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C16EAB4EA75F4BA597EA7E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C52F88B136DA419A8BDC3885 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C793F67227A04039987E91AE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D42E22778EDE4DBE881D4806 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D59D63F172134D66A421B00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EE2C6BD87F424A9BA91F5FC6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F8595E755A774081B48C4ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/stubdata/../common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-fPIC    -fno-omit-frame-pointer -std=c++11  -DENABLED_DEBUG_SYNC -DSAFE_MUTEX  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icustubdata;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F8A1E559EF6443CD8F3FAF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build_ios/extra/icu/source/stubdata";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F6AE17DE11642539B784F4B /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4FC2EB30A0436D9B9CC7FB /* Debug */,
+				896F4408AD524EB8B88D7E2B /* Release */,
+				A62FCED21B0840308B7589DE /* MinSizeRel */,
+				7A60D2EBB1FA435EA1F867BE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		575D7C9BF8EA4912B306CB74 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82D490C5E0E442AA0977466 /* Debug */,
+				C16EAB4EA75F4BA597EA7E8E /* Release */,
+				C793F67227A04039987E91AE /* MinSizeRel */,
+				8ED410BA7AE843949B79D7C4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		66148DA02B9D46B186239182 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568D199D708F4052A9261755 /* Debug */,
+				D59D63F172134D66A421B00A /* Release */,
+				374DDEED763642A091CD4AC4 /* MinSizeRel */,
+				4949010DD6CE4C3EAD4B717D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E7406C4E2FE44159C4ED355 /* Build configuration list for PBXNativeTarget "icustubdata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8595E755A774081B48C4ACB /* Debug */,
+				19319D7FD2AD4BB287766B44 /* Release */,
+				8E634744DEE44720AA463902 /* MinSizeRel */,
+				000CF4D938BF4156B7044571 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		97E816FE3DD34472AC4C5596 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4B9B0E096945ECBCF8D7B7 /* Debug */,
+				29EAB692E1FC453790D11C6D /* Release */,
+				C52F88B136DA419A8BDC3885 /* MinSizeRel */,
+				BB398C7BA6C94121A4AFAC37 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C315BA0C34D243D0B0089E8E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF489574DC7485C9FC60CE0 /* Debug */,
+				F8A1E559EF6443CD8F3FAF74 /* Release */,
+				8BD4BFA5D26641D1BEFF6FA4 /* MinSizeRel */,
+				D42E22778EDE4DBE881D4806 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CBF9A450259645358DD42E8E /* Build configuration list for PBXProject "ICU-stubdata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7F01F3CA55478991109944 /* Debug */,
+				6E2760F78C9742AB8D936FC2 /* Release */,
+				956F15ADD56A428397114AE5 /* MinSizeRel */,
+				EE2C6BD87F424A9BA91F5FC6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E722143C7B34CD382EBE18A /* Project object */;
+}
