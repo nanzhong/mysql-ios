@@ -4,7 +4,7 @@ This repo is a convenience project for building mysql for iOS (in particual mysq
 
 ## Building
 
-The `mysqlclient` build target can be used to build a `libmysqlclient.a` library for iOS. All default targets except for `mysqlclient` have been hidden.
+The `mysqlclient-universal` build target can be used to build a `libmysqlclient.a` library for iOS and iOS Simulator.
 
 ## Manual Configuration
 
@@ -12,7 +12,9 @@ The XCode project and build artifacts are created by the following process:
 
 1. `cmake -G Xcode` to generate the XCode project.
 2. Update the XCode project to build for iOS (changing the base SDK and target platforms from macOS to iOS).
-3. Remove the `comp_err` and `comp_client_err` targets which rely on `com.apple.product-type.tool` which does not exist for iOS.
+3. Change `comp_err` and `copy_openssl_dlls` back to macOS.
+
+The overall idea here is to just take the existing build targets and just build them for iOS, `comp_err` is used to generate the errors and will be run in the `GenError` target, and thus should still be built for macOS.
 
 ## License
 
