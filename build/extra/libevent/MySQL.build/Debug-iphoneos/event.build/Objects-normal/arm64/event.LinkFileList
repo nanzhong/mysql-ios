@@ -1,0 +1,13 @@
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/buffer.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/evbuffer.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/event.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/event_tagging.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/evrpc.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/evutil.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/http.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/kqueue.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/log.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/poll.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/select.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/signal.o
+/Users/nan/src/mysql-ios/build/extra/libevent/MySQL.build/Debug-iphoneos/event.build/Objects-normal/arm64/strlcpy.o

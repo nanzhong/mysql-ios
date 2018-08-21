@@ -1,0 +1,1784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5C26179940BA4E0D99AD0253 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7504AD0C26BF4A999EC433D5 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				FB8427C81DFC493AB9CB1758 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		71C7AFE5BA9946A9B170BAE7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 06B0C84C40A24D3E8F60DEAB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				09C14BF4E6AE4558829E997D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		99FD70A0E6014CC6B91CAA8A /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 237434CDE6714BE6BDFF9615 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				D8BC5AA976064B9CBAF21E6C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DB88988B67C24712B54ED439 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		A622882C725D468DB00F5321 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A2CB8FF5F6E40AD9F4C4549 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				35B5FB4A5A4E46E88067623A /* CMake Rules */,
+			);
+			dependencies = (
+				49AF99000FE6416F94993798 /* PBXTargetDependency */,
+				8940EE6413E94E8DB798817D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D8D31D0436AE4FC38F072A2F /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 816B9D694AA14200BFA15C75 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				C2E64113F4494D1BABCC5ECF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				51EF332486E247D5B80F2FEA /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		001F69801CB941AFB2A9E0DF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrie.cpp */ = {isa = PBXBuildFile; fileRef = 2370AB3C27A842C8814A9A22 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrie.cpp */; };
+		014B171079A144C4857CA6BE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_err.cpp */ = {isa = PBXBuildFile; fileRef = ADA3DB5DC62C498CB33BCAF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_err.cpp */; };
+		024A171ABAB64F1EB41B6407 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringpiece.cpp */ = {isa = PBXBuildFile; fileRef = 804F9741323540D88B26ACC4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringpiece.cpp */; };
+		03C30C1F2719467A852F025A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv.cpp */ = {isa = PBXBuildFile; fileRef = ADF3C2EE0B684ABEB810FE8F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv.cpp */; };
+		03D440470C1B491992A8AD57 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2.cpp */ = {isa = PBXBuildFile; fileRef = 20CB0C76B3A94F4FB618BB44 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2.cpp */; };
+		043227545DA047A48FADADC1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usetiter.cpp */ = {isa = PBXBuildFile; fileRef = D36F0C2242A1429B87BF5F43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usetiter.cpp */; };
+		0687AAEE66484B549FAD31CB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ext.cpp */ = {isa = PBXBuildFile; fileRef = 76540449BC7743EFB455CB6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ext.cpp */; };
+		0698C41666504564926C7371 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbisetb.cpp */ = {isa = PBXBuildFile; fileRef = 86A6F9356E274886B5A0421A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbisetb.cpp */; };
+		07218EE59ADC415FAA103EB9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u7.cpp */ = {isa = PBXBuildFile; fileRef = CDE195E6B5F244D18A71CBAE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u7.cpp */; };
+		0757B361442E417AA833C70E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umapfile.cpp */ = {isa = PBXBuildFile; fileRef = 01431E5BE5C746F6A4489E94 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umapfile.cpp */; };
+		094AF94437C14C75BC6C5D43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/appendable.cpp */ = {isa = PBXBuildFile; fileRef = 095AE0BD78384A1B8EB9DC39 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/appendable.cpp */; };
+		0955F3D4A382497AB57519AE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubiditransform.cpp */ = {isa = PBXBuildFile; fileRef = F7DFD7365EF44995AFCD6824 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubiditransform.cpp */; };
+		0A527E93852248EB8BE31B84 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustack.cpp */ = {isa = PBXBuildFile; fileRef = 3B2CE65D2BDD4C30A36D2195 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustack.cpp */; };
+		0AF99AE9EBEB4B909194E4E9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locid.cpp */ = {isa = PBXBuildFile; fileRef = 49B4DB8CA6804966939A0BA3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locid.cpp */; };
+		0B8A689C7DD7465D95838BC7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utypes.cpp */ = {isa = PBXBuildFile; fileRef = 9C85EB4FBD304D69B91E7BE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utypes.cpp */; };
+		0BB9E4C8D8D64A1582C54519 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unormcmp.cpp */ = {isa = PBXBuildFile; fileRef = D5C8412F24594BC2B62B4314 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unormcmp.cpp */; };
+		0D246F3215174C8B8AE361F1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbitblb.cpp */ = {isa = PBXBuildFile; fileRef = 53E38BDC88E541E6B794FCD3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbitblb.cpp */; };
+		0DFF33353EAF48E39B679C05 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc.cpp */ = {isa = PBXBuildFile; fileRef = DC1EE46745EF4B029522B41D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc.cpp */; };
+		0E7D41B1F9A941B0997A67F0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr.cpp */ = {isa = PBXBuildFile; fileRef = BDFA345F53784F69BD534CB7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr.cpp */; };
+		10AEF48998A341D4B4DAF262 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cmemory.cpp */ = {isa = PBXBuildFile; fileRef = 4CC6D22F55F24B0A99EB2FE8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cmemory.cpp */; };
+		114B0F446F114DC2A7850D48 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrfmt.cpp */ = {isa = PBXBuildFile; fileRef = D54C0C292A8F4DCA867FFFD8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrfmt.cpp */; };
+		11575583A7CB44FD823BEA2D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubrk.cpp */ = {isa = PBXBuildFile; fileRef = 3E98C647A8034ED8A1518EE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubrk.cpp */; };
+		11F0279268AD4F039F15CCDB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/patternprops.cpp */ = {isa = PBXBuildFile; fileRef = 0C029968CE8D4C0BA81BE74D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/patternprops.cpp */; };
+		14F56561EECA4A48A80AD1B9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unorm.cpp */ = {isa = PBXBuildFile; fileRef = F2A82D4AB4AD42EAB5A97F5A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unorm.cpp */; };
+		15863B1479FD43539476B2CD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrie.cpp */ = {isa = PBXBuildFile; fileRef = 2E06DF2923914B9BA54A66D6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrie.cpp */; };
+		1AEA2698377247099F66C4A9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_cnv.cpp */ = {isa = PBXBuildFile; fileRef = DD3BBF9F15FD427B83973375 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_cnv.cpp */; };
+		1AF9E23EB12743DEBB35EBD0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case_locale.cpp */ = {isa = PBXBuildFile; fileRef = EFB2BB088ABC411C8D91EC3C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case_locale.cpp */; };
+		1B0C6DFFC99240B1B56AD756 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresdata.cpp */ = {isa = PBXBuildFile; fileRef = C9385143768F4AB5A49BECB2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresdata.cpp */; };
+		1B2B29C8C02546B488D8CE43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstring.cpp */ = {isa = PBXBuildFile; fileRef = DC62EFADCD4F4481A1588C7E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstring.cpp */; };
+		1D19770BC02A49CEA97B93B4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 81B951CA1F5740BDB568156F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */; };
+		1EAF7646E84F40AA8CCE9CEB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_props.cpp */ = {isa = PBXBuildFile; fileRef = FEF76F09E9E84470B5E9EB92 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_props.cpp */; };
+		21AB3E054AC541129CD5FB24 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset.cpp */ = {isa = PBXBuildFile; fileRef = 64B63DA74D84413D820C58EF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset.cpp */; };
+		22580D774728469DA752E7FB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbi.cpp */ = {isa = PBXBuildFile; fileRef = 5407A316B1E4449D8C72F934 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbi.cpp */; };
+		23F987A1ADD148C9BF34578C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usprep.cpp */ = {isa = PBXBuildFile; fileRef = DAD170012B9840D1A80CA37F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usprep.cpp */; };
+		2479133DA0704009A41D389F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvisci.cpp */ = {isa = PBXBuildFile; fileRef = 04B3C8F5140C4DDE828E7F4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvisci.cpp */; };
+		249D4E100459453CB8C61B6C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servnotf.cpp */ = {isa = PBXBuildFile; fileRef = 00CFC562A58A4AF9A691F1BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servnotf.cpp */; };
+		26442A35BB6D4DA2B48BFCBB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrtrns.cpp */ = {isa = PBXBuildFile; fileRef = 8C017FFB2B7F4F45879E7DF5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrtrns.cpp */; };
+		272E301EBB8E48D3889FE65F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ct.cpp */ = {isa = PBXBuildFile; fileRef = 0DCFAFF1F84A4130B9615CD5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ct.cpp */; };
+		27FFC15F097C48C5AD1F1FBD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucln_cmn.cpp */ = {isa = PBXBuildFile; fileRef = 32907A1B927E4861B0EE6A0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucln_cmn.cpp */; };
+		29B0CCB437954726835C4260 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u32.cpp */ = {isa = PBXBuildFile; fileRef = B97E548F18074A1F91054CAD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u32.cpp */; };
+		2A4283CC152F46F681BE8D8D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cb.cpp */ = {isa = PBXBuildFile; fileRef = 6F8987AA0A2340EDA004A5FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cb.cpp */; };
+		2B8B76067A9640DF8FA53177 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locmap.cpp */ = {isa = PBXBuildFile; fileRef = 83B2DACF903C4EA494428685 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locmap.cpp */; };
+		2DA47E9EF9334DA5A8D35EB4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap.cpp */ = {isa = PBXBuildFile; fileRef = AF3847768A68442096A0B5E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap.cpp */; };
+		2E00C5BD00F94360B5F4D843 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/wintz.cpp */ = {isa = PBXBuildFile; fileRef = 09563CB47DCA4D23AF96A6A3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/wintz.cpp */; };
+		30FEE5DAF77D4959A8B404A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvbocu.cpp */ = {isa = PBXBuildFile; fileRef = FBD5B8B8BD3642B3A1E61C4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvbocu.cpp */; };
+		33DF9F78C2EA46DEA1F55FA0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utf_impl.cpp */ = {isa = PBXBuildFile; fileRef = 528AAE381A3A473C8511F99D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utf_impl.cpp */; };
+		3527C4B1136D49979C1B5823 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrenum.cpp */ = {isa = PBXBuildFile; fileRef = 88070CAF61F646299062529F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrenum.cpp */; };
+		35AF7EE4750B4D93B4551A95 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifunct.cpp */ = {isa = PBXBuildFile; fileRef = 2217E3759008470E979DD308 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifunct.cpp */; };
+		362153F589D94A68B066EEF5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinit.cpp */ = {isa = PBXBuildFile; fileRef = B88F4B2742F74ECA818FEC7C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinit.cpp */; };
+		3839F7EEEE144A649E9D0CC7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstr.cpp */ = {isa = PBXBuildFile; fileRef = 214C19A7FCF84E1496025843 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstr.cpp */; };
+		3D2913A6B69540E1AF368CA1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvhz.cpp */ = {isa = PBXBuildFile; fileRef = 21EA0A0ECFE54F68A91A5A69 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvhz.cpp */; };
+		3D750D2B42BB49749BE4E347 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filterednormalizer2.cpp */ = {isa = PBXBuildFile; fileRef = 107ECEE690BE4683BA7A6807 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filterednormalizer2.cpp */; };
+		42CEDECC46054EB9B3C06D27 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u8.cpp */ = {isa = PBXBuildFile; fileRef = EAD3F8156AFA4BFBA5A7932B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u8.cpp */; };
+		434A609FDD224B40BC492BCB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servrbf.cpp */ = {isa = PBXBuildFile; fileRef = 6D96A6252E4C4756B127AFBE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servrbf.cpp */; };
+		44BBDDB450C542FE93CE5A0B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie.cpp */ = {isa = PBXBuildFile; fileRef = 14032FC83518454283054FCE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie.cpp */; };
+		451088A4F01746208FAD8C7E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbirb.cpp */ = {isa = PBXBuildFile; fileRef = 9831C5970498473B99EFEBC0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbirb.cpp */; };
+		4520FE714DD74896B31E584A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udatamem.cpp */ = {isa = PBXBuildFile; fileRef = F59A7D2713E34252A96E3F28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udatamem.cpp */; };
+		4595986FA9FC4D86B4CD5EEE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund.cpp */ = {isa = PBXBuildFile; fileRef = 76332DC9EB78496FBB35B04F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund.cpp */; };
+		465F5B75A24043D6B0121893 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustring.cpp */ = {isa = PBXBuildFile; fileRef = BF3D219F3C9641BD85104768 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustring.cpp */; };
+		481BCA58C37C4C62820AF9A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstriebuilder.cpp */ = {isa = PBXBuildFile; fileRef = 10E978E4D8F741D3AE95C6CE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstriebuilder.cpp */; };
+		48A92E55F159405BBF22C45F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase_locale.cpp */ = {isa = PBXBuildFile; fileRef = CC90A10735714750B5292031 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase_locale.cpp */; };
+		49C1CAFA48D94B4A9B4BD6E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbistbl.cpp */ = {isa = PBXBuildFile; fileRef = 6C937BBE604649FE8499EACD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbistbl.cpp */; };
+		4DBAE98FD06246558967B0ED /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrace.cpp */ = {isa = PBXBuildFile; fileRef = E73CBB008186441F88166421 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrace.cpp */; };
+		4E153BBD76724F4193667968 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinvchar.cpp */ = {isa = PBXBuildFile; fileRef = 4863CC22B0B44A26BFB26C29 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinvchar.cpp */; };
+		4FBE60FDD9F84ED29103393C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/messagepattern.cpp */ = {isa = PBXBuildFile; fileRef = 82E231380E1E42B68BC78D98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/messagepattern.cpp */; };
+		54EE3AB3987D4CF89A7FE3A7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlkf.cpp */ = {isa = PBXBuildFile; fileRef = 64F2DCC26F78425D8E27743D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlkf.cpp */; };
+		55461CA13F7A45569AC18DCF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi_props.cpp */ = {isa = PBXBuildFile; fileRef = C88E5589A9614195B64E89E7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi_props.cpp */; };
+		55A4C472EC654199A82235E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_props.cpp */ = {isa = PBXBuildFile; fileRef = E34FC02241CB49A1884D08E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_props.cpp */; };
+		57761472DF054B00847503BA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset.cpp */ = {isa = PBXBuildFile; fileRef = 2B01C1920A2F470A8053F3E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset.cpp */; };
+		58A84F17B815498A9E6A2F7F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_titlecase_brkiter.cpp */ = {isa = PBXBuildFile; fileRef = 73821D81C23E48A5B699E9C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_titlecase_brkiter.cpp */; };
+		591E66123F7C42FA9C28CDA4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset_props.cpp */ = {isa = PBXBuildFile; fileRef = 1B1DB47302814698A06FEC63 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset_props.cpp */; };
+		5960C118B66B41B594437CBF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resource.cpp */ = {isa = PBXBuildFile; fileRef = A057F65E52134441858F7058 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resource.cpp */; };
+		5C783FBAAB02468A800A59FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locbased.cpp */ = {isa = PBXBuildFile; fileRef = 5163667498AA4DBBB451488E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locbased.cpp */; };
+		5E1AFBAC1BA84286A913F96C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/pluralmap.cpp */ = {isa = PBXBuildFile; fileRef = 78CA953CB4B844D9A03EE0E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/pluralmap.cpp */; };
+		5E3E0FB5D8804B50A793B9E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umath.cpp */ = {isa = PBXBuildFile; fileRef = 322AFC5B5C7544EFB81C6E2F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umath.cpp */; };
+		5FE070FB2F53455FA664B75B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uidna.cpp */ = {isa = PBXBuildFile; fileRef = CD8F355BAD2847029A17F7DB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uidna.cpp */; settings = {COMPILER_FLAGS = "-Wno-deprecated-declarations"; }; };
+		621E0C39AE8642BB99B26F69 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript_props.cpp */ = {isa = PBXBuildFile; fileRef = DCF90372C24646D68E9B2067 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript_props.cpp */; };
+		62215F80A7774FBA9C04BC42 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/parsepos.cpp */ = {isa = PBXBuildFile; fileRef = A011DAF61E8E46AFB71F46FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/parsepos.cpp */; };
+		631F888923754BF0BFDAB19D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund_cnv.cpp */ = {isa = PBXBuildFile; fileRef = C1B6D126AB7C4219B6A0A053 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund_cnv.cpp */; };
+		64853DB7FB714B44878C849B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/putil.cpp */ = {isa = PBXBuildFile; fileRef = 17933C7A1D3C4EEABBCC81E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/putil.cpp */; };
+		65CF23F7939441D8AB48471A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvscsu.cpp */ = {isa = PBXBuildFile; fileRef = 6E32D600AA894584A634ADB4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvscsu.cpp */; };
+		6630C12E8EAE46E2ADC4CB9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbinode.cpp */ = {isa = PBXBuildFile; fileRef = 5BA0C0665CEC400FB96D4F89 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbinode.cpp */; };
+		663634AE77A142ADAED49895 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loclikely.cpp */ = {isa = PBXBuildFile; fileRef = 88AC5294B0F448E4AB9AE6FF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loclikely.cpp */; };
+		66CC07B8110F4E5587F44E79 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/serv.cpp */ = {isa = PBXBuildFile; fileRef = 0ACE835D230F4EB0B571A618 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/serv.cpp */; };
+		6708D9D7C6FC4344A0C7C356 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucase.cpp */ = {isa = PBXBuildFile; fileRef = 964042268ACA4F9BB0D2F73E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucase.cpp */; };
+		674EC3FA28A94356AF8060B6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdspnm.cpp */ = {isa = PBXBuildFile; fileRef = E49E55F892644E789E5D0F32 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdspnm.cpp */; };
+		69975B66B5324649BEC5F851 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util.cpp */ = {isa = PBXBuildFile; fileRef = EDAC612E2012468D81EA2649 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util.cpp */; };
+		6E7622395DB445409CA74C11 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locavailable.cpp */ = {isa = PBXBuildFile; fileRef = 6F96D800FB8F423BBDF9BB73 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locavailable.cpp */; };
+		6EC28A4FFA6E44D4A45B8225 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr64.cpp */ = {isa = PBXBuildFile; fileRef = 70B76F7EBAB94A7FA2EDC64E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr64.cpp */; };
+		70C8B39E4AD34D2F855386A1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvmbcs.cpp */ = {isa = PBXBuildFile; fileRef = F80B7EBE4E7943CD96AD87D4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvmbcs.cpp */; };
+		70D973516AFD4E01B7393F9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestream.cpp */ = {isa = PBXBuildFile; fileRef = 9EB50E79D8334488AFEE23B9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestream.cpp */; };
+		7483D9E2188C4D3DAACC6ED5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uts46.cpp */ = {isa = PBXBuildFile; fileRef = 8119003EB92C4628A82265F2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uts46.cpp */; };
+		761A4077304B4464941DA03B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uenum.cpp */ = {isa = PBXBuildFile; fileRef = 218CE86BC9374EB49F623D10 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uenum.cpp */; };
+		76873DE467824E2CB530C41E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvlat1.cpp */ = {isa = PBXBuildFile; fileRef = 9DA17FA19FA24C4EADCCEA4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvlat1.cpp */; };
+		77F5E3B0FBFB45998AD022B1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ushape.cpp */ = {isa = PBXBuildFile; fileRef = A82A1016FC6740CF9844B796 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ushape.cpp */; };
+		7865A37EE9E941E7B6DB1B0E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchar.cpp */ = {isa = PBXBuildFile; fileRef = CED33E35B9B84D089F6C6AFB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchar.cpp */; };
+		7B4E0F77F5604B0086133E98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiln.cpp */ = {isa = PBXBuildFile; fileRef = 39EC06A6C0E94AF2A0BB7F4A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiln.cpp */; };
+		7C39489094F6457C8EF4875C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_cnv.cpp */ = {isa = PBXBuildFile; fileRef = 8989E432B2804E668E2A5C6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_cnv.cpp */; };
+		7C90577631A1429F93B5520B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locutil.cpp */ = {isa = PBXBuildFile; fileRef = F8801EAFB17043DA92FB7B7A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locutil.cpp */; };
+		7E134A3E9CAF4C8CA8810AC5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictbe.cpp */ = {isa = PBXBuildFile; fileRef = C32501C712C24BA9B01AC83A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictbe.cpp */; };
+		7EBC0451C0BA4F71BBA9C92F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unisetspan.cpp */ = {isa = PBXBuildFile; fileRef = 2872EEFA9FC341CAA46C1D01 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unisetspan.cpp */; };
+		7F894C4D62BE422987DEDBD4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/charstr.cpp */ = {isa = PBXBuildFile; fileRef = 0990B64138564B0393CF0283 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/charstr.cpp */; };
+		8470E379EAC14CDB9EE93034 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvector.cpp */ = {isa = PBXBuildFile; fileRef = 3430858497844A44B1E3106C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvector.cpp */; };
+		876ECB63BDCC4FF0BDD88B9C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_wcs.cpp */ = {isa = PBXBuildFile; fileRef = 00DA14628EB243D4A2FDC050 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_wcs.cpp */; };
+		888CEB355BED4E57B937DBDE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locresdata.cpp */ = {isa = PBXBuildFile; fileRef = 0182B8CA2E5141A6B7DEBEDC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locresdata.cpp */; };
+		8CE47002F062432D9FA0D218 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udataswp.cpp */ = {isa = PBXBuildFile; fileRef = 481EB3CD50E14596975F5133 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udataswp.cpp */; };
+		8FF8527C3C6740048ECD8D7B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkeng.cpp */ = {isa = PBXBuildFile; fileRef = 4B42D42A7B194BF98137312B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkeng.cpp */; };
+		904866D570994D6CBF82228B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2_builder.cpp */ = {isa = PBXBuildFile; fileRef = 816686B244744FB0B938698A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2_builder.cpp */; };
+		90CAA5F15CCD4571B3599AE4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulistformatter.cpp */ = {isa = PBXBuildFile; fileRef = CA6CB0BDE5EB4303A155D25F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulistformatter.cpp */; };
+		918422B5F7D44846B86E0795 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loadednormalizer2impl.cpp */ = {isa = PBXBuildFile; fileRef = 0C79002E22F14DF88FDE5938 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loadednormalizer2impl.cpp */; };
+		921B57AF786945B89FE7DA98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uarrsort.cpp */ = {isa = PBXBuildFile; fileRef = 0158F2A5149E44C28DEC8F21 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uarrsort.cpp */; };
+		93060995F02C4154AEB8856E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_tag.cpp */ = {isa = PBXBuildFile; fileRef = E37016FFF5A342C9816749AF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_tag.cpp */; };
+		938A8C61F5244DC5B5A7F498 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrieiterator.cpp */ = {isa = PBXBuildFile; fileRef = 6125CFEA622E4B53B751383C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrieiterator.cpp */; };
+		96500E1CA939467598C287EA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/edits.cpp */ = {isa = PBXBuildFile; fileRef = A274BB8D6D124580A1F5C66C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/edits.cpp */; };
+		974FD8FF322A40B9A011D283 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/simpleformatter.cpp */ = {isa = PBXBuildFile; fileRef = 99AE2B37B536425E9B279726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/simpleformatter.cpp */; };
+		978001DBBB5545C88D916E0D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normlzr.cpp */ = {isa = PBXBuildFile; fileRef = EBFDD356FFA249D89021FEBA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normlzr.cpp */; };
+		998BCDE1CDD84132A1C3323F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cwchar.cpp */ = {isa = PBXBuildFile; fileRef = 649E6FCDC32E4611ABB37871 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cwchar.cpp */; };
+		99FD9EA6B7D84F1B84F095D3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvdisp.cpp */ = {isa = PBXBuildFile; fileRef = C3DA38695BF54B8D90D1EAC1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvdisp.cpp */; };
+		9B53FADEBF5D4CD9AF54A120 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictionarydata.cpp */ = {isa = PBXBuildFile; fileRef = E32C9AE68E924BACB2F0F7AC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictionarydata.cpp */; };
+		9C58EAB601D642DE90D1E2BC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi.cpp */ = {isa = PBXBuildFile; fileRef = CA9004EB887F4114B28EFA0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi.cpp */; };
+		9F76E0D0C00949DABFD8163D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usc_impl.cpp */ = {isa = PBXBuildFile; fileRef = 861746255740437DA538D4DA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usc_impl.cpp */; };
+		A0BFCAAE9ACF4578B5F409CE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_titlecase_brkiter.cpp */ = {isa = PBXBuildFile; fileRef = 9D786A62F8F04CA88E588C15 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_titlecase_brkiter.cpp */; };
+		A274C164708C4E3292B45923 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servls.cpp */ = {isa = PBXBuildFile; fileRef = B0AAD5C2263D4B9B97496389 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servls.cpp */; };
+		A3447E138C784B08864BA61B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulist.cpp */ = {isa = PBXBuildFile; fileRef = A165AE4061CD422983705CE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulist.cpp */; };
+		A572A3ADB2D043EDA2323922 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icudataver.cpp */ = {isa = PBXBuildFile; fileRef = 436D6BFD059F4ECC98379FFF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icudataver.cpp */; };
+		A6785B1481E0425C87410EF6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr32.cpp */ = {isa = PBXBuildFile; fileRef = 1EBF2B7616574F1396E9A77C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr32.cpp */; };
+		AFD9679B998C45CDBF19BAD9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucurr.cpp */ = {isa = PBXBuildFile; fileRef = D61E79234876471494E33AF4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucurr.cpp */; };
+		B3E81D40D6C541359350C420 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uobject.cpp */ = {isa = PBXBuildFile; fileRef = 188080BDAA7A4AF6927BE26E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uobject.cpp */; };
+		B6F074703BC44BADA0A597BE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ruleiter.cpp */ = {isa = PBXBuildFile; fileRef = FA6AE8BAF9CA40728FC8A8A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ruleiter.cpp */; };
+		B6F7738BDE9C4A379FB8AB94 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/listformatter.cpp */ = {isa = PBXBuildFile; fileRef = 26545FE9C27D409AA791A3A0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/listformatter.cpp */; };
+		B86CEDE1498A489A8B280471 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlk.cpp */ = {isa = PBXBuildFile; fileRef = CA2BBAA8D2064C068A9BCD28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlk.cpp */; };
+		B8FD8FD560E84A1BB25ED2A4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2.cpp */ = {isa = PBXBuildFile; fileRef = 13980E8E50C440D684B1D4DC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2.cpp */; };
+		B96A9B9B0C624B63A7A04237 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifiedcache.cpp */ = {isa = PBXBuildFile; fileRef = 00EC3C108733406AA2201A9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifiedcache.cpp */; };
+		BB353C2B24F54F04838AE0F2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_io.cpp */ = {isa = PBXBuildFile; fileRef = 6011F93BEF9F4BE49E1B8C09 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_io.cpp */; };
+		BBDAFD7DC75B464A93B286D6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresbund.cpp */ = {isa = PBXBuildFile; fileRef = B35EB9F808EE4CA08378DDAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresbund.cpp */; };
+		BC761F9533854BD0AC1C4931 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/caniter.cpp */ = {isa = PBXBuildFile; fileRef = 24408F5EF3404426BA736C53 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/caniter.cpp */; };
+		BFD7AD8128D641EAAB3FE594 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestriebuilder.cpp */ = {isa = PBXBuildFile; fileRef = 2A8BD1D357144AC39F411CEB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestriebuilder.cpp */; };
+		BFF265DA375D44CDB848818F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propname.cpp */ = {isa = PBXBuildFile; fileRef = 653AD55B91D54A8A9A6A801C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propname.cpp */; };
+		C0C145B71137497C81838083 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_keytype.cpp */ = {isa = PBXBuildFile; fileRef = 5193F9D35BD744B696CAFCE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_keytype.cpp */; };
+		C2D87F7EAB7D45198CE224D8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util_props.cpp */ = {isa = PBXBuildFile; fileRef = 0DF1CE8A2C0D4A3DBE6B6FA0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util_props.cpp */; };
+		C351A654B3784FCDA36D79F3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2impl.cpp */ = {isa = PBXBuildFile; fileRef = 76B004DE2E3E4021945CDB0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2impl.cpp */; };
+		C43075CE83C946478264F7A1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchriter.cpp */ = {isa = PBXBuildFile; fileRef = FF49CBF0CBB04C449D812C17 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchriter.cpp */; };
+		C5E42D8312A449CD954E5D3D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unames.cpp */ = {isa = PBXBuildFile; fileRef = 84AFED5DC7EE4129B4BEE4D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unames.cpp */; };
+		C6C87A8B1F084D1282B6574B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvsel.cpp */ = {isa = PBXBuildFile; fileRef = E3C1966F660D4B829E100BE0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvsel.cpp */; };
+		C7711100EBF44E438B32A823 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbiscan.cpp */ = {isa = PBXBuildFile; fileRef = 29C073022EA84D949B231F0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbiscan.cpp */; };
+		C7B3D4E1451549B1B6EA852B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uprops.cpp */ = {isa = PBXBuildFile; fileRef = 995C310A560F4606AFE09B97 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uprops.cpp */; };
+		C8C16F01C6F1444FB3F72FC0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/punycode.cpp */ = {isa = PBXBuildFile; fileRef = 7563CA98473D4642BEB2EAE4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/punycode.cpp */; };
+		CA12DC9B4D0F4F7BBC9D05D2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bmpset.cpp */ = {isa = PBXBuildFile; fileRef = CE909694AA174E368BA45416 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bmpset.cpp */; };
+		CAB41090359346ACA67D3F81 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icuplug.cpp */ = {isa = PBXBuildFile; fileRef = 8315CAD75A504CABBA7CF4E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icuplug.cpp */; };
+		D0466992DC414C34804486CD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/sharedobject.cpp */ = {isa = PBXBuildFile; fileRef = 61D77BE50B344149A5E129E6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/sharedobject.cpp */; };
+		D0EAEFA91B3B433380D82FB8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cnv.cpp */ = {isa = PBXBuildFile; fileRef = F8A7B6340A784EEC8DE19798 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cnv.cpp */; };
+		D275CF9DB7CE4CC6883162FF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utext.cpp */ = {isa = PBXBuildFile; fileRef = C77275AFC81442578CDE1A96 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utext.cpp */; };
+		D4E31A9FF3DF410AB28F56AF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servslkf.cpp */ = {isa = PBXBuildFile; fileRef = 58190BA73DB142EAB288419C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servslkf.cpp */; };
+		D6FEC8462D1B4128BA295666 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash.cpp */ = {isa = PBXBuildFile; fileRef = A65BFC3FDF1546DAA6BAB474 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash.cpp */; };
+		D76F84664E5C475B8F32F38C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript.cpp */ = {isa = PBXBuildFile; fileRef = 7A25BF9004CC495A95AB7BF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript.cpp */; };
+		D8877A1F5554497E8E5E139B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_bld.cpp */ = {isa = PBXBuildFile; fileRef = B95D55130D984D13843059D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_bld.cpp */; };
+		DACA73C7EDA745C297F41597 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap_titlecase_brkiter.cpp */ = {isa = PBXBuildFile; fileRef = 31CEA0B32A8F456CA9FE3FAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap_titlecase_brkiter.cpp */; };
+		DC2225ECB5E44F519957472C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umutex.cpp */ = {isa = PBXBuildFile; fileRef = B25A0A66069A4AE99255981B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umutex.cpp */; };
+		DCA50C4832404EE2BDA39D9A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/chariter.cpp */ = {isa = PBXBuildFile; fileRef = ABB7D7E0ED3D4D6D8C806609 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/chariter.cpp */; };
+		DEA05112422447289289021B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_closure.cpp */ = {isa = PBXBuildFile; fileRef = 2075A92E1A7C45A38C99D518 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_closure.cpp */; };
+		DF286DA583ED4BFBA228C460 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uiter.cpp */ = {isa = PBXBuildFile; fileRef = 3F20794821D94C28B7F2A2F7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uiter.cpp */; };
+		DF2B1C859204458AB899B18E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/errorcode.cpp */ = {isa = PBXBuildFile; fileRef = F9A5987EE73F44B497C686B6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/errorcode.cpp */; };
+		E02F1929EDDF400FA9D155A3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u16.cpp */ = {isa = PBXBuildFile; fileRef = 1870177EB50F403CBA6D712C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u16.cpp */; };
+		E1E3250C361248FC97F6B393 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdispnames.cpp */ = {isa = PBXBuildFile; fileRef = 0DBB0401D701413F9B0F78AB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdispnames.cpp */; };
+		E3C2A6BB28B44F48BEB8F959 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case.cpp */ = {isa = PBXBuildFile; fileRef = 0F908231F493426398D4AFF0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case.cpp */; };
+		E4F0A6B02B844548BDF989C6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucat.cpp */ = {isa = PBXBuildFile; fileRef = 2F947B2084D24D3EB86DB71B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucat.cpp */; };
+		E5A6525E5BFD4C99B5B6CF2B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbidata.cpp */ = {isa = PBXBuildFile; fileRef = ECE51C17F63647D6AC66E94E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbidata.cpp */; };
+		E6B1A0373FA84BB9800458FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucol_swp.cpp */ = {isa = PBXBuildFile; fileRef = 858836633C524A4ABAF6E125 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucol_swp.cpp */; };
+		E73610E9F16E44E5833A3D2F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringtriebuilder.cpp */ = {isa = PBXBuildFile; fileRef = 67FBB8081A93486BB1694C30 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringtriebuilder.cpp */; };
+		E794A039864D49FBBB5B875B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase.cpp */ = {isa = PBXBuildFile; fileRef = 0FC70641B5DF41DD8772C5B2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase.cpp */; };
+		E7F73A2558D9449CBAEF601A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv2022.cpp */ = {isa = PBXBuildFile; fileRef = 7B0357ADE60E472B89E78488 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv2022.cpp */; };
+		E834BC3C52844624B1972C60 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propsvec.cpp */ = {isa = PBXBuildFile; fileRef = A830625F0B65402CAB6ED0C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propsvec.cpp */; };
+		EBE6CF0E4EEA4ADB9366248F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udata.cpp */ = {isa = PBXBuildFile; fileRef = CAA7254D9FA542988DBC769F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udata.cpp */; };
+		ED4A0D743EAF47C1AD37E352 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/schriter.cpp */ = {isa = PBXBuildFile; fileRef = 8C615DBDC86C43769273B972 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/schriter.cpp */; };
+		ED5D7C2F54B6433892CEAE83 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifilt.cpp */ = {isa = PBXBuildFile; fileRef = 6B1A0BD310F44F28A91B8B6C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifilt.cpp */; };
+		EF6ED537195143559D6F2D86 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ures_cnv.cpp */ = {isa = PBXBuildFile; fileRef = 2A6A5F07EF624FDFBAE8224E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ures_cnv.cpp */; };
+		F5AF6EE2DA2D410B8C10A8BD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_set.cpp */ = {isa = PBXBuildFile; fileRef = 491682CB04A74B29A673B024 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_set.cpp */; };
+		F815A8C29DA740EB8FB4B9F9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dtintrv.cpp */ = {isa = PBXBuildFile; fileRef = 2AED4DE260034FD0B545D43A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dtintrv.cpp */; };
+		F8E0834309504595B29473F5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucmndata.cpp */ = {isa = PBXBuildFile; fileRef = 28A2970633D0492DB7E9C1FE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucmndata.cpp */; };
+		F91F2466B7F44A5CAC04FD64 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filteredbrk.cpp */ = {isa = PBXBuildFile; fileRef = E028AD44BE984083AF7E24BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filteredbrk.cpp */; };
+		F988F0FA3C0F4012BD35BDD8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrieiterator.cpp */ = {isa = PBXBuildFile; fileRef = 623B316A3C4E454F85E32A23 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrieiterator.cpp */; };
+		FA2CB6FBC2884B52B29C6433 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkiter.cpp */ = {isa = PBXBuildFile; fileRef = 5B978D2600374E7681393B04 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkiter.cpp */; };
+		FACE53ADD97443BC91240350 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash_us.cpp */ = {isa = PBXBuildFile; fileRef = 67DAEA7CE68845A9ABC670D2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash_us.cpp */; };
+		FB465F1992CC4FC4994B2C48 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiwrt.cpp */ = {isa = PBXBuildFile; fileRef = F65133CED78E49D0953D2726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiwrt.cpp */; };
+		FDA004133A97478FB9CD8CB1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_lmb.cpp */ = {isa = PBXBuildFile; fileRef = DD4C8F4E024C4EC1A12183E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_lmb.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		28437A003B7E49D5AA895EC1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7628A76D106C499694A88A32 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8C8DD659A1114365964F1F2A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		97BF581235A644D398BCAF70 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		A83B255E6BCE4458AA7215C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B3C1FACDF14E289823D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A622882C725D468DB00F5321;
+			remoteInfo = ALL_BUILD;
+		};
+		AEB8BA39EFEC4C20AD2AD61C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B3C1FACDF14E289823D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 641D0652434F4A6BA5C7AD8B;
+			remoteInfo = icuuc;
+		};
+		C2FA30C212144FE99D58F469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B3C1FACDF14E289823D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A622882C725D468DB00F5321;
+			remoteInfo = ALL_BUILD;
+		};
+		C9275521346A4E9BA0B8EA04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B3C1FACDF14E289823D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C7AFE5BA9946A9B170BAE7;
+			remoteInfo = ZERO_CHECK;
+		};
+		EE2C21355F464ADD9F0A25D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6B3C1FACDF14E289823D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C7AFE5BA9946A9B170BAE7;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CFC562A58A4AF9A691F1BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servnotf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servnotf.cpp; path = servnotf.cpp; sourceTree = SOURCE_ROOT; };
+		00DA14628EB243D4A2FDC050 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_wcs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustr_wcs.cpp; path = ustr_wcs.cpp; sourceTree = SOURCE_ROOT; };
+		00EC3C108733406AA2201A9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifiedcache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unifiedcache.cpp; path = unifiedcache.cpp; sourceTree = SOURCE_ROOT; };
+		01431E5BE5C746F6A4489E94 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umapfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = umapfile.cpp; path = umapfile.cpp; sourceTree = SOURCE_ROOT; };
+		0158F2A5149E44C28DEC8F21 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uarrsort.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uarrsort.cpp; path = uarrsort.cpp; sourceTree = SOURCE_ROOT; };
+		0182B8CA2E5141A6B7DEBEDC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locresdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locresdata.cpp; path = locresdata.cpp; sourceTree = SOURCE_ROOT; };
+		04B3C8F5140C4DDE828E7F4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvisci.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvisci.cpp; path = ucnvisci.cpp; sourceTree = SOURCE_ROOT; };
+		09563CB47DCA4D23AF96A6A3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/wintz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = wintz.cpp; path = wintz.cpp; sourceTree = SOURCE_ROOT; };
+		095AE0BD78384A1B8EB9DC39 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/appendable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = appendable.cpp; path = appendable.cpp; sourceTree = SOURCE_ROOT; };
+		0990B64138564B0393CF0283 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/charstr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = charstr.cpp; path = charstr.cpp; sourceTree = SOURCE_ROOT; };
+		0ACE835D230F4EB0B571A618 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/serv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serv.cpp; path = serv.cpp; sourceTree = SOURCE_ROOT; };
+		0C029968CE8D4C0BA81BE74D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/patternprops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = patternprops.cpp; path = patternprops.cpp; sourceTree = SOURCE_ROOT; };
+		0C79002E22F14DF88FDE5938 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loadednormalizer2impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = loadednormalizer2impl.cpp; path = loadednormalizer2impl.cpp; sourceTree = SOURCE_ROOT; };
+		0DBB0401D701413F9B0F78AB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdispnames.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locdispnames.cpp; path = locdispnames.cpp; sourceTree = SOURCE_ROOT; };
+		0DCFAFF1F84A4130B9615CD5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_ct.cpp; path = ucnv_ct.cpp; sourceTree = SOURCE_ROOT; };
+		0DF1CE8A2C0D4A3DBE6B6FA0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util_props.cpp; path = util_props.cpp; sourceTree = SOURCE_ROOT; };
+		0F908231F493426398D4AFF0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr_case.cpp; path = unistr_case.cpp; sourceTree = SOURCE_ROOT; };
+		0FC70641B5DF41DD8772C5B2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustrcase.cpp; path = ustrcase.cpp; sourceTree = SOURCE_ROOT; };
+		107ECEE690BE4683BA7A6807 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filterednormalizer2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filterednormalizer2.cpp; path = filterednormalizer2.cpp; sourceTree = SOURCE_ROOT; };
+		10E978E4D8F741D3AE95C6CE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstriebuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucharstriebuilder.cpp; path = ucharstriebuilder.cpp; sourceTree = SOURCE_ROOT; };
+		13980E8E50C440D684B1D4DC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utrie2.cpp; path = utrie2.cpp; sourceTree = SOURCE_ROOT; };
+		14032FC83518454283054FCE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utrie.cpp; path = utrie.cpp; sourceTree = SOURCE_ROOT; };
+		17933C7A1D3C4EEABBCC81E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/putil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = putil.cpp; path = putil.cpp; sourceTree = SOURCE_ROOT; };
+		1870177EB50F403CBA6D712C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u16.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_u16.cpp; path = ucnv_u16.cpp; sourceTree = SOURCE_ROOT; };
+		188080BDAA7A4AF6927BE26E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uobject.cpp; path = uobject.cpp; sourceTree = SOURCE_ROOT; };
+		1B1DB47302814698A06FEC63 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uset_props.cpp; path = uset_props.cpp; sourceTree = SOURCE_ROOT; };
+		1EBF2B7616574F1396E9A77C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uvectr32.cpp; path = uvectr32.cpp; sourceTree = SOURCE_ROOT; };
+		2075A92E1A7C45A38C99D518 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_closure.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uniset_closure.cpp; path = uniset_closure.cpp; sourceTree = SOURCE_ROOT; };
+		20CB0C76B3A94F4FB618BB44 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normalizer2.cpp; path = normalizer2.cpp; sourceTree = SOURCE_ROOT; };
+		214C19A7FCF84E1496025843 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstr.cpp; path = cstr.cpp; sourceTree = SOURCE_ROOT; };
+		218CE86BC9374EB49F623D10 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uenum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uenum.cpp; path = uenum.cpp; sourceTree = SOURCE_ROOT; };
+		21EA0A0ECFE54F68A91A5A69 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvhz.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvhz.cpp; path = ucnvhz.cpp; sourceTree = SOURCE_ROOT; };
+		2217E3759008470E979DD308 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifunct.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unifunct.cpp; path = unifunct.cpp; sourceTree = SOURCE_ROOT; };
+		2370AB3C27A842C8814A9A22 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestrie.cpp; path = bytestrie.cpp; sourceTree = SOURCE_ROOT; };
+		24408F5EF3404426BA736C53 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/caniter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = caniter.cpp; path = caniter.cpp; sourceTree = SOURCE_ROOT; };
+		26545FE9C27D409AA791A3A0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/listformatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = listformatter.cpp; path = listformatter.cpp; sourceTree = SOURCE_ROOT; };
+		2872EEFA9FC341CAA46C1D01 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unisetspan.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unisetspan.cpp; path = unisetspan.cpp; sourceTree = SOURCE_ROOT; };
+		28A2970633D0492DB7E9C1FE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucmndata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucmndata.cpp; path = ucmndata.cpp; sourceTree = SOURCE_ROOT; };
+		29C073022EA84D949B231F0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbiscan.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbiscan.cpp; path = rbbiscan.cpp; sourceTree = SOURCE_ROOT; };
+		2A6A5F07EF624FDFBAE8224E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ures_cnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ures_cnv.cpp; path = ures_cnv.cpp; sourceTree = SOURCE_ROOT; };
+		2A8BD1D357144AC39F411CEB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestriebuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestriebuilder.cpp; path = bytestriebuilder.cpp; sourceTree = SOURCE_ROOT; };
+		2AED4DE260034FD0B545D43A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dtintrv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dtintrv.cpp; path = dtintrv.cpp; sourceTree = SOURCE_ROOT; };
+		2B01C1920A2F470A8053F3E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uniset.cpp; path = uniset.cpp; sourceTree = SOURCE_ROOT; };
+		2E06DF2923914B9BA54A66D6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucharstrie.cpp; path = ucharstrie.cpp; sourceTree = SOURCE_ROOT; };
+		2F947B2084D24D3EB86DB71B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucat.cpp; path = ucat.cpp; sourceTree = SOURCE_ROOT; };
+		31CEA0B32A8F456CA9FE3FAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap_titlecase_brkiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucasemap_titlecase_brkiter.cpp; path = ucasemap_titlecase_brkiter.cpp; sourceTree = SOURCE_ROOT; };
+		322AFC5B5C7544EFB81C6E2F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umath.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = umath.cpp; path = umath.cpp; sourceTree = SOURCE_ROOT; };
+		32907A1B927E4861B0EE6A0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucln_cmn.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucln_cmn.cpp; path = ucln_cmn.cpp; sourceTree = SOURCE_ROOT; };
+		3430858497844A44B1E3106C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvector.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uvector.cpp; path = uvector.cpp; sourceTree = SOURCE_ROOT; };
+		39EC06A6C0E94AF2A0BB7F4A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiln.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubidiln.cpp; path = ubidiln.cpp; sourceTree = SOURCE_ROOT; };
+		3B2CE65D2BDD4C30A36D2195 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustack.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustack.cpp; path = ustack.cpp; sourceTree = SOURCE_ROOT; };
+		3E98C647A8034ED8A1518EE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubrk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubrk.cpp; path = ubrk.cpp; sourceTree = SOURCE_ROOT; };
+		3F20794821D94C28B7F2A2F7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uiter.cpp; path = uiter.cpp; sourceTree = SOURCE_ROOT; };
+		436D6BFD059F4ECC98379FFF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icudataver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = icudataver.cpp; path = icudataver.cpp; sourceTree = SOURCE_ROOT; };
+		481EB3CD50E14596975F5133 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udataswp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = udataswp.cpp; path = udataswp.cpp; sourceTree = SOURCE_ROOT; };
+		4863CC22B0B44A26BFB26C29 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinvchar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uinvchar.cpp; path = uinvchar.cpp; sourceTree = SOURCE_ROOT; };
+		491682CB04A74B29A673B024 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_set.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_set.cpp; path = ucnv_set.cpp; sourceTree = SOURCE_ROOT; };
+		49B4DB8CA6804966939A0BA3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locid.cpp; path = locid.cpp; sourceTree = SOURCE_ROOT; };
+		4B42D42A7B194BF98137312B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkeng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brkeng.cpp; path = brkeng.cpp; sourceTree = SOURCE_ROOT; };
+		4CC6D22F55F24B0A99EB2FE8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cmemory.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cmemory.cpp; path = cmemory.cpp; sourceTree = SOURCE_ROOT; };
+		5163667498AA4DBBB451488E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locbased.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locbased.cpp; path = locbased.cpp; sourceTree = SOURCE_ROOT; };
+		5193F9D35BD744B696CAFCE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_keytype.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uloc_keytype.cpp; path = uloc_keytype.cpp; sourceTree = SOURCE_ROOT; };
+		528AAE381A3A473C8511F99D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utf_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utf_impl.cpp; path = utf_impl.cpp; sourceTree = SOURCE_ROOT; };
+		53E38BDC88E541E6B794FCD3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbitblb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbitblb.cpp; path = rbbitblb.cpp; sourceTree = SOURCE_ROOT; };
+		5407A316B1E4449D8C72F934 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbi.cpp; path = rbbi.cpp; sourceTree = SOURCE_ROOT; };
+		58190BA73DB142EAB288419C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servslkf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servslkf.cpp; path = servslkf.cpp; sourceTree = SOURCE_ROOT; };
+		5B978D2600374E7681393B04 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brkiter.cpp; path = brkiter.cpp; sourceTree = SOURCE_ROOT; };
+		5BA0C0665CEC400FB96D4F89 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbinode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbinode.cpp; path = rbbinode.cpp; sourceTree = SOURCE_ROOT; };
+		6011F93BEF9F4BE49E1B8C09 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_io.cpp; path = ucnv_io.cpp; sourceTree = SOURCE_ROOT; };
+		6125CFEA622E4B53B751383C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrieiterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucharstrieiterator.cpp; path = ucharstrieiterator.cpp; sourceTree = SOURCE_ROOT; };
+		61D77BE50B344149A5E129E6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/sharedobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sharedobject.cpp; path = sharedobject.cpp; sourceTree = SOURCE_ROOT; };
+		623B316A3C4E454F85E32A23 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrieiterator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestrieiterator.cpp; path = bytestrieiterator.cpp; sourceTree = SOURCE_ROOT; };
+		649E6FCDC32E4611ABB37871 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cwchar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cwchar.cpp; path = cwchar.cpp; sourceTree = SOURCE_ROOT; };
+		64B63DA74D84413D820C58EF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uset.cpp; path = uset.cpp; sourceTree = SOURCE_ROOT; };
+		64F2DCC26F78425D8E27743D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlkf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servlkf.cpp; path = servlkf.cpp; sourceTree = SOURCE_ROOT; };
+		653AD55B91D54A8A9A6A801C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propname.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = propname.cpp; path = propname.cpp; sourceTree = SOURCE_ROOT; };
+		67DAEA7CE68845A9ABC670D2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash_us.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uhash_us.cpp; path = uhash_us.cpp; sourceTree = SOURCE_ROOT; };
+		67FBB8081A93486BB1694C30 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringtriebuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringtriebuilder.cpp; path = stringtriebuilder.cpp; sourceTree = SOURCE_ROOT; };
+		6B1A0BD310F44F28A91B8B6C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifilt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unifilt.cpp; path = unifilt.cpp; sourceTree = SOURCE_ROOT; };
+		6C937BBE604649FE8499EACD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbistbl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbistbl.cpp; path = rbbistbl.cpp; sourceTree = SOURCE_ROOT; };
+		6D96A6252E4C4756B127AFBE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servrbf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servrbf.cpp; path = servrbf.cpp; sourceTree = SOURCE_ROOT; };
+		6E32D600AA894584A634ADB4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvscsu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvscsu.cpp; path = ucnvscsu.cpp; sourceTree = SOURCE_ROOT; };
+		6F8987AA0A2340EDA004A5FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_cb.cpp; path = ucnv_cb.cpp; sourceTree = SOURCE_ROOT; };
+		6F96D800FB8F423BBDF9BB73 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locavailable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locavailable.cpp; path = locavailable.cpp; sourceTree = SOURCE_ROOT; };
+		70B76F7EBAB94A7FA2EDC64E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uvectr64.cpp; path = uvectr64.cpp; sourceTree = SOURCE_ROOT; };
+		73821D81C23E48A5B699E9C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_titlecase_brkiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr_titlecase_brkiter.cpp; path = unistr_titlecase_brkiter.cpp; sourceTree = SOURCE_ROOT; };
+		7563CA98473D4642BEB2EAE4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/punycode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = punycode.cpp; path = punycode.cpp; sourceTree = SOURCE_ROOT; };
+		76332DC9EB78496FBB35B04F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resbund.cpp; path = resbund.cpp; sourceTree = SOURCE_ROOT; };
+		76540449BC7743EFB455CB6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_ext.cpp; path = ucnv_ext.cpp; sourceTree = SOURCE_ROOT; };
+		76B004DE2E3E4021945CDB0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normalizer2impl.cpp; path = normalizer2impl.cpp; sourceTree = SOURCE_ROOT; };
+		78CA953CB4B844D9A03EE0E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/pluralmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pluralmap.cpp; path = pluralmap.cpp; sourceTree = SOURCE_ROOT; };
+		7A25BF9004CC495A95AB7BF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uscript.cpp; path = uscript.cpp; sourceTree = SOURCE_ROOT; };
+		7B0357ADE60E472B89E78488 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv2022.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv2022.cpp; path = ucnv2022.cpp; sourceTree = SOURCE_ROOT; };
+		804F9741323540D88B26ACC4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringpiece.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stringpiece.cpp; path = stringpiece.cpp; sourceTree = SOURCE_ROOT; };
+		8119003EB92C4628A82265F2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uts46.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uts46.cpp; path = uts46.cpp; sourceTree = SOURCE_ROOT; };
+		816686B244744FB0B938698A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2_builder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utrie2_builder.cpp; path = utrie2_builder.cpp; sourceTree = SOURCE_ROOT; };
+		81B951CA1F5740BDB568156F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		82E231380E1E42B68BC78D98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/messagepattern.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = messagepattern.cpp; path = messagepattern.cpp; sourceTree = SOURCE_ROOT; };
+		8315CAD75A504CABBA7CF4E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icuplug.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = icuplug.cpp; path = icuplug.cpp; sourceTree = SOURCE_ROOT; };
+		83B2DACF903C4EA494428685 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locmap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locmap.cpp; path = locmap.cpp; sourceTree = SOURCE_ROOT; };
+		84AFED5DC7EE4129B4BEE4D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unames.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unames.cpp; path = unames.cpp; sourceTree = SOURCE_ROOT; };
+		858836633C524A4ABAF6E125 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucol_swp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucol_swp.cpp; path = ucol_swp.cpp; sourceTree = SOURCE_ROOT; };
+		861746255740437DA538D4DA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usc_impl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = usc_impl.cpp; path = usc_impl.cpp; sourceTree = SOURCE_ROOT; };
+		86A6F9356E274886B5A0421A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbisetb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbisetb.cpp; path = rbbisetb.cpp; sourceTree = SOURCE_ROOT; };
+		88070CAF61F646299062529F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrenum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustrenum.cpp; path = ustrenum.cpp; sourceTree = SOURCE_ROOT; };
+		88AC5294B0F448E4AB9AE6FF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loclikely.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = loclikely.cpp; path = loclikely.cpp; sourceTree = SOURCE_ROOT; };
+		8989E432B2804E668E2A5C6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_cnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustr_cnv.cpp; path = ustr_cnv.cpp; sourceTree = SOURCE_ROOT; };
+		8C017FFB2B7F4F45879E7DF5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrtrns.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustrtrns.cpp; path = ustrtrns.cpp; sourceTree = SOURCE_ROOT; };
+		8C615DBDC86C43769273B972 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/schriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = schriter.cpp; path = schriter.cpp; sourceTree = SOURCE_ROOT; };
+		964042268ACA4F9BB0D2F73E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucase.cpp; path = ucase.cpp; sourceTree = SOURCE_ROOT; };
+		9831C5970498473B99EFEBC0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbirb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbirb.cpp; path = rbbirb.cpp; sourceTree = SOURCE_ROOT; };
+		995C310A560F4606AFE09B97 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uprops.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uprops.cpp; path = uprops.cpp; sourceTree = SOURCE_ROOT; };
+		99AE2B37B536425E9B279726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/simpleformatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simpleformatter.cpp; path = simpleformatter.cpp; sourceTree = SOURCE_ROOT; };
+		9C85EB4FBD304D69B91E7BE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utypes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utypes.cpp; path = utypes.cpp; sourceTree = SOURCE_ROOT; };
+		9D786A62F8F04CA88E588C15 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_titlecase_brkiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustr_titlecase_brkiter.cpp; path = ustr_titlecase_brkiter.cpp; sourceTree = SOURCE_ROOT; };
+		9DA17FA19FA24C4EADCCEA4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvlat1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvlat1.cpp; path = ucnvlat1.cpp; sourceTree = SOURCE_ROOT; };
+		9EB50E79D8334488AFEE23B9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bytestream.cpp; path = bytestream.cpp; sourceTree = SOURCE_ROOT; };
+		A011DAF61E8E46AFB71F46FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/parsepos.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = parsepos.cpp; path = parsepos.cpp; sourceTree = SOURCE_ROOT; };
+		A057F65E52134441858F7058 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resource.cpp; path = resource.cpp; sourceTree = SOURCE_ROOT; };
+		A165AE4061CD422983705CE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ulist.cpp; path = ulist.cpp; sourceTree = SOURCE_ROOT; };
+		A1FEE50F61AD4F4AB162A217 /* icuuc */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libicuuc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A274BB8D6D124580A1F5C66C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/edits.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edits.cpp; path = edits.cpp; sourceTree = SOURCE_ROOT; };
+		A36481BD04234BE8A0AC160A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A65BFC3FDF1546DAA6BAB474 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uhash.cpp; path = uhash.cpp; sourceTree = SOURCE_ROOT; };
+		A82A1016FC6740CF9844B796 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ushape.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ushape.cpp; path = ushape.cpp; sourceTree = SOURCE_ROOT; };
+		A830625F0B65402CAB6ED0C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propsvec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = propsvec.cpp; path = propsvec.cpp; sourceTree = SOURCE_ROOT; };
+		ABB7D7E0ED3D4D6D8C806609 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/chariter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = chariter.cpp; path = chariter.cpp; sourceTree = SOURCE_ROOT; };
+		ADA3DB5DC62C498CB33BCAF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_err.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_err.cpp; path = ucnv_err.cpp; sourceTree = SOURCE_ROOT; };
+		ADF3C2EE0B684ABEB810FE8F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv.cpp; path = ucnv.cpp; sourceTree = SOURCE_ROOT; };
+		AF3847768A68442096A0B5E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucasemap.cpp; path = ucasemap.cpp; sourceTree = SOURCE_ROOT; };
+		B0AAD5C2263D4B9B97496389 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servls.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servls.cpp; path = servls.cpp; sourceTree = SOURCE_ROOT; };
+		B25A0A66069A4AE99255981B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = umutex.cpp; path = umutex.cpp; sourceTree = SOURCE_ROOT; };
+		B35EB9F808EE4CA08378DDAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresbund.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uresbund.cpp; path = uresbund.cpp; sourceTree = SOURCE_ROOT; };
+		B88F4B2742F74ECA818FEC7C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinit.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uinit.cpp; path = uinit.cpp; sourceTree = SOURCE_ROOT; };
+		B95D55130D984D13843059D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_bld.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_bld.cpp; path = ucnv_bld.cpp; sourceTree = SOURCE_ROOT; };
+		B97E548F18074A1F91054CAD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u32.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_u32.cpp; path = ucnv_u32.cpp; sourceTree = SOURCE_ROOT; };
+		BDFA345F53784F69BD534CB7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr.cpp; path = unistr.cpp; sourceTree = SOURCE_ROOT; };
+		BF3D219F3C9641BD85104768 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustring.cpp; path = ustring.cpp; sourceTree = SOURCE_ROOT; };
+		C1B6D126AB7C4219B6A0A053 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund_cnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resbund_cnv.cpp; path = resbund_cnv.cpp; sourceTree = SOURCE_ROOT; };
+		C32501C712C24BA9B01AC83A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictbe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictbe.cpp; path = dictbe.cpp; sourceTree = SOURCE_ROOT; };
+		C3DA38695BF54B8D90D1EAC1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvdisp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvdisp.cpp; path = ucnvdisp.cpp; sourceTree = SOURCE_ROOT; };
+		C77275AFC81442578CDE1A96 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utext.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utext.cpp; path = utext.cpp; sourceTree = SOURCE_ROOT; };
+		C88E5589A9614195B64E89E7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubidi_props.cpp; path = ubidi_props.cpp; sourceTree = SOURCE_ROOT; };
+		C9385143768F4AB5A49BECB2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresdata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uresdata.cpp; path = uresdata.cpp; sourceTree = SOURCE_ROOT; };
+		CA2BBAA8D2064C068A9BCD28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = servlk.cpp; path = servlk.cpp; sourceTree = SOURCE_ROOT; };
+		CA6CB0BDE5EB4303A155D25F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulistformatter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ulistformatter.cpp; path = ulistformatter.cpp; sourceTree = SOURCE_ROOT; };
+		CA9004EB887F4114B28EFA0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubidi.cpp; path = ubidi.cpp; sourceTree = SOURCE_ROOT; };
+		CAA7254D9FA542988DBC769F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = udata.cpp; path = udata.cpp; sourceTree = SOURCE_ROOT; };
+		CC90A10735714750B5292031 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase_locale.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustrcase_locale.cpp; path = ustrcase_locale.cpp; sourceTree = SOURCE_ROOT; };
+		CD8F355BAD2847029A17F7DB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uidna.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uidna.cpp; path = uidna.cpp; sourceTree = SOURCE_ROOT; };
+		CDE195E6B5F244D18A71CBAE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u7.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_u7.cpp; path = ucnv_u7.cpp; sourceTree = SOURCE_ROOT; };
+		CE909694AA174E368BA45416 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bmpset.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bmpset.cpp; path = bmpset.cpp; sourceTree = SOURCE_ROOT; };
+		CED33E35B9B84D089F6C6AFB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uchar.cpp; path = uchar.cpp; sourceTree = SOURCE_ROOT; };
+		D36F0C2242A1429B87BF5F43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usetiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = usetiter.cpp; path = usetiter.cpp; sourceTree = SOURCE_ROOT; };
+		D54C0C292A8F4DCA867FFFD8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrfmt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ustrfmt.cpp; path = ustrfmt.cpp; sourceTree = SOURCE_ROOT; };
+		D5C8412F24594BC2B62B4314 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unormcmp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unormcmp.cpp; path = unormcmp.cpp; sourceTree = SOURCE_ROOT; };
+		D61E79234876471494E33AF4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucurr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucurr.cpp; path = ucurr.cpp; sourceTree = SOURCE_ROOT; };
+		DAD170012B9840D1A80CA37F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usprep.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = usprep.cpp; path = usprep.cpp; sourceTree = SOURCE_ROOT; };
+		DC1EE46745EF4B029522B41D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uloc.cpp; path = uloc.cpp; sourceTree = SOURCE_ROOT; };
+		DC62EFADCD4F4481A1588C7E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstring.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cstring.cpp; path = cstring.cpp; sourceTree = SOURCE_ROOT; };
+		DCF90372C24646D68E9B2067 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uscript_props.cpp; path = uscript_props.cpp; sourceTree = SOURCE_ROOT; };
+		DD3BBF9F15FD427B83973375 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_cnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr_cnv.cpp; path = unistr_cnv.cpp; sourceTree = SOURCE_ROOT; };
+		DD4C8F4E024C4EC1A12183E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_lmb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_lmb.cpp; path = ucnv_lmb.cpp; sourceTree = SOURCE_ROOT; };
+		E028AD44BE984083AF7E24BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filteredbrk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = filteredbrk.cpp; path = filteredbrk.cpp; sourceTree = SOURCE_ROOT; };
+		E32C9AE68E924BACB2F0F7AC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictionarydata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dictionarydata.cpp; path = dictionarydata.cpp; sourceTree = SOURCE_ROOT; };
+		E34FC02241CB49A1884D08E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uniset_props.cpp; path = uniset_props.cpp; sourceTree = SOURCE_ROOT; };
+		E37016FFF5A342C9816749AF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_tag.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uloc_tag.cpp; path = uloc_tag.cpp; sourceTree = SOURCE_ROOT; };
+		E3C1966F660D4B829E100BE0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvsel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvsel.cpp; path = ucnvsel.cpp; sourceTree = SOURCE_ROOT; };
+		E49E55F892644E789E5D0F32 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdspnm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locdspnm.cpp; path = locdspnm.cpp; sourceTree = SOURCE_ROOT; };
+		E73CBB008186441F88166421 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrace.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = utrace.cpp; path = utrace.cpp; sourceTree = SOURCE_ROOT; };
+		EAD3F8156AFA4BFBA5A7932B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u8.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_u8.cpp; path = ucnv_u8.cpp; sourceTree = SOURCE_ROOT; };
+		EBFDD356FFA249D89021FEBA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normlzr.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = normlzr.cpp; path = normlzr.cpp; sourceTree = SOURCE_ROOT; };
+		ECE51C17F63647D6AC66E94E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbidata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rbbidata.cpp; path = rbbidata.cpp; sourceTree = SOURCE_ROOT; };
+		EDAC612E2012468D81EA2649 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = util.cpp; sourceTree = SOURCE_ROOT; };
+		EFB2BB088ABC411C8D91EC3C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case_locale.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr_case_locale.cpp; path = unistr_case_locale.cpp; sourceTree = SOURCE_ROOT; };
+		F2A82D4AB4AD42EAB5A97F5A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unorm.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unorm.cpp; path = unorm.cpp; sourceTree = SOURCE_ROOT; };
+		F59A7D2713E34252A96E3F28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udatamem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = udatamem.cpp; path = udatamem.cpp; sourceTree = SOURCE_ROOT; };
+		F65133CED78E49D0953D2726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiwrt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubidiwrt.cpp; path = ubidiwrt.cpp; sourceTree = SOURCE_ROOT; };
+		F7DFD7365EF44995AFCD6824 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubiditransform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ubiditransform.cpp; path = ubiditransform.cpp; sourceTree = SOURCE_ROOT; };
+		F80B7EBE4E7943CD96AD87D4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvmbcs.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvmbcs.cpp; path = ucnvmbcs.cpp; sourceTree = SOURCE_ROOT; };
+		F8801EAFB17043DA92FB7B7A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = locutil.cpp; path = locutil.cpp; sourceTree = SOURCE_ROOT; };
+		F8A7B6340A784EEC8DE19798 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cnv.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnv_cnv.cpp; path = ucnv_cnv.cpp; sourceTree = SOURCE_ROOT; };
+		F9A5987EE73F44B497C686B6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/errorcode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = errorcode.cpp; path = errorcode.cpp; sourceTree = SOURCE_ROOT; };
+		FA6AE8BAF9CA40728FC8A8A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ruleiter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ruleiter.cpp; path = ruleiter.cpp; sourceTree = SOURCE_ROOT; };
+		FBD5B8B8BD3642B3A1E61C4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvbocu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ucnvbocu.cpp; path = ucnvbocu.cpp; sourceTree = SOURCE_ROOT; };
+		FEF76F09E9E84470B5E9EB92 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_props.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unistr_props.cpp; path = unistr_props.cpp; sourceTree = SOURCE_ROOT; };
+		FF49CBF0CBB04C449D812C17 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uchriter.cpp; path = uchriter.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		62C416F4F0064BAB9340436C /* icuuc */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8524876534CB1A4C217D9 /* Source Files */,
+				81B951CA1F5740BDB568156F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */,
+			);
+			name = icuuc;
+			sourceTree = "<group>";
+		};
+		6F2E00ACF2914E7E8FD01F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FEE50F61AD4F4AB162A217 /* icuuc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76755332501A450196AB3EC6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				AA58B3E55DD348E6BB01E048 /* CMake Rules */,
+				A36481BD04234BE8A0AC160A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7DE8524876534CB1A4C217D9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				095AE0BD78384A1B8EB9DC39 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/appendable.cpp */,
+				CE909694AA174E368BA45416 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bmpset.cpp */,
+				4B42D42A7B194BF98137312B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkeng.cpp */,
+				5B978D2600374E7681393B04 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkiter.cpp */,
+				9EB50E79D8334488AFEE23B9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestream.cpp */,
+				2370AB3C27A842C8814A9A22 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrie.cpp */,
+				2A8BD1D357144AC39F411CEB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestriebuilder.cpp */,
+				623B316A3C4E454F85E32A23 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrieiterator.cpp */,
+				24408F5EF3404426BA736C53 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/caniter.cpp */,
+				ABB7D7E0ED3D4D6D8C806609 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/chariter.cpp */,
+				0990B64138564B0393CF0283 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/charstr.cpp */,
+				4CC6D22F55F24B0A99EB2FE8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cmemory.cpp */,
+				214C19A7FCF84E1496025843 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstr.cpp */,
+				DC62EFADCD4F4481A1588C7E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstring.cpp */,
+				649E6FCDC32E4611ABB37871 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cwchar.cpp */,
+				C32501C712C24BA9B01AC83A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictbe.cpp */,
+				E32C9AE68E924BACB2F0F7AC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictionarydata.cpp */,
+				2AED4DE260034FD0B545D43A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dtintrv.cpp */,
+				A274BB8D6D124580A1F5C66C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/edits.cpp */,
+				F9A5987EE73F44B497C686B6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/errorcode.cpp */,
+				E028AD44BE984083AF7E24BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filteredbrk.cpp */,
+				107ECEE690BE4683BA7A6807 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filterednormalizer2.cpp */,
+				436D6BFD059F4ECC98379FFF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icudataver.cpp */,
+				8315CAD75A504CABBA7CF4E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icuplug.cpp */,
+				26545FE9C27D409AA791A3A0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/listformatter.cpp */,
+				0C79002E22F14DF88FDE5938 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loadednormalizer2impl.cpp */,
+				6F96D800FB8F423BBDF9BB73 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locavailable.cpp */,
+				5163667498AA4DBBB451488E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locbased.cpp */,
+				0DBB0401D701413F9B0F78AB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdispnames.cpp */,
+				E49E55F892644E789E5D0F32 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdspnm.cpp */,
+				49B4DB8CA6804966939A0BA3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locid.cpp */,
+				88AC5294B0F448E4AB9AE6FF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loclikely.cpp */,
+				83B2DACF903C4EA494428685 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locmap.cpp */,
+				0182B8CA2E5141A6B7DEBEDC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locresdata.cpp */,
+				F8801EAFB17043DA92FB7B7A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locutil.cpp */,
+				82E231380E1E42B68BC78D98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/messagepattern.cpp */,
+				20CB0C76B3A94F4FB618BB44 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2.cpp */,
+				76B004DE2E3E4021945CDB0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2impl.cpp */,
+				EBFDD356FFA249D89021FEBA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normlzr.cpp */,
+				A011DAF61E8E46AFB71F46FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/parsepos.cpp */,
+				0C029968CE8D4C0BA81BE74D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/patternprops.cpp */,
+				78CA953CB4B844D9A03EE0E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/pluralmap.cpp */,
+				653AD55B91D54A8A9A6A801C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propname.cpp */,
+				A830625F0B65402CAB6ED0C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propsvec.cpp */,
+				7563CA98473D4642BEB2EAE4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/punycode.cpp */,
+				17933C7A1D3C4EEABBCC81E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/putil.cpp */,
+				5407A316B1E4449D8C72F934 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbi.cpp */,
+				ECE51C17F63647D6AC66E94E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbidata.cpp */,
+				5BA0C0665CEC400FB96D4F89 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbinode.cpp */,
+				9831C5970498473B99EFEBC0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbirb.cpp */,
+				29C073022EA84D949B231F0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbiscan.cpp */,
+				86A6F9356E274886B5A0421A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbisetb.cpp */,
+				6C937BBE604649FE8499EACD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbistbl.cpp */,
+				53E38BDC88E541E6B794FCD3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbitblb.cpp */,
+				76332DC9EB78496FBB35B04F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund.cpp */,
+				C1B6D126AB7C4219B6A0A053 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund_cnv.cpp */,
+				A057F65E52134441858F7058 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resource.cpp */,
+				FA6AE8BAF9CA40728FC8A8A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ruleiter.cpp */,
+				8C615DBDC86C43769273B972 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/schriter.cpp */,
+				0ACE835D230F4EB0B571A618 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/serv.cpp */,
+				CA2BBAA8D2064C068A9BCD28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlk.cpp */,
+				64F2DCC26F78425D8E27743D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlkf.cpp */,
+				B0AAD5C2263D4B9B97496389 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servls.cpp */,
+				00CFC562A58A4AF9A691F1BB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servnotf.cpp */,
+				6D96A6252E4C4756B127AFBE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servrbf.cpp */,
+				58190BA73DB142EAB288419C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servslkf.cpp */,
+				61D77BE50B344149A5E129E6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/sharedobject.cpp */,
+				99AE2B37B536425E9B279726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/simpleformatter.cpp */,
+				804F9741323540D88B26ACC4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringpiece.cpp */,
+				67FBB8081A93486BB1694C30 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringtriebuilder.cpp */,
+				0158F2A5149E44C28DEC8F21 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uarrsort.cpp */,
+				CA9004EB887F4114B28EFA0C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi.cpp */,
+				C88E5589A9614195B64E89E7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi_props.cpp */,
+				39EC06A6C0E94AF2A0BB7F4A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiln.cpp */,
+				F7DFD7365EF44995AFCD6824 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubiditransform.cpp */,
+				F65133CED78E49D0953D2726 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiwrt.cpp */,
+				3E98C647A8034ED8A1518EE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubrk.cpp */,
+				964042268ACA4F9BB0D2F73E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucase.cpp */,
+				AF3847768A68442096A0B5E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap.cpp */,
+				31CEA0B32A8F456CA9FE3FAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap_titlecase_brkiter.cpp */,
+				2F947B2084D24D3EB86DB71B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucat.cpp */,
+				CED33E35B9B84D089F6C6AFB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchar.cpp */,
+				2E06DF2923914B9BA54A66D6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrie.cpp */,
+				10E978E4D8F741D3AE95C6CE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstriebuilder.cpp */,
+				6125CFEA622E4B53B751383C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrieiterator.cpp */,
+				FF49CBF0CBB04C449D812C17 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchriter.cpp */,
+				32907A1B927E4861B0EE6A0F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucln_cmn.cpp */,
+				28A2970633D0492DB7E9C1FE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucmndata.cpp */,
+				ADF3C2EE0B684ABEB810FE8F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv.cpp */,
+				7B0357ADE60E472B89E78488 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv2022.cpp */,
+				B95D55130D984D13843059D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_bld.cpp */,
+				6F8987AA0A2340EDA004A5FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cb.cpp */,
+				F8A7B6340A784EEC8DE19798 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cnv.cpp */,
+				0DCFAFF1F84A4130B9615CD5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ct.cpp */,
+				ADA3DB5DC62C498CB33BCAF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_err.cpp */,
+				76540449BC7743EFB455CB6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ext.cpp */,
+				6011F93BEF9F4BE49E1B8C09 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_io.cpp */,
+				DD4C8F4E024C4EC1A12183E8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_lmb.cpp */,
+				491682CB04A74B29A673B024 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_set.cpp */,
+				1870177EB50F403CBA6D712C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u16.cpp */,
+				B97E548F18074A1F91054CAD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u32.cpp */,
+				CDE195E6B5F244D18A71CBAE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u7.cpp */,
+				EAD3F8156AFA4BFBA5A7932B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u8.cpp */,
+				FBD5B8B8BD3642B3A1E61C4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvbocu.cpp */,
+				C3DA38695BF54B8D90D1EAC1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvdisp.cpp */,
+				21EA0A0ECFE54F68A91A5A69 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvhz.cpp */,
+				04B3C8F5140C4DDE828E7F4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvisci.cpp */,
+				9DA17FA19FA24C4EADCCEA4B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvlat1.cpp */,
+				F80B7EBE4E7943CD96AD87D4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvmbcs.cpp */,
+				6E32D600AA894584A634ADB4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvscsu.cpp */,
+				E3C1966F660D4B829E100BE0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvsel.cpp */,
+				858836633C524A4ABAF6E125 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucol_swp.cpp */,
+				D61E79234876471494E33AF4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucurr.cpp */,
+				CAA7254D9FA542988DBC769F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udata.cpp */,
+				F59A7D2713E34252A96E3F28 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udatamem.cpp */,
+				481EB3CD50E14596975F5133 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udataswp.cpp */,
+				218CE86BC9374EB49F623D10 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uenum.cpp */,
+				A65BFC3FDF1546DAA6BAB474 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash.cpp */,
+				67DAEA7CE68845A9ABC670D2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash_us.cpp */,
+				CD8F355BAD2847029A17F7DB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uidna.cpp */,
+				B88F4B2742F74ECA818FEC7C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinit.cpp */,
+				4863CC22B0B44A26BFB26C29 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinvchar.cpp */,
+				3F20794821D94C28B7F2A2F7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uiter.cpp */,
+				A165AE4061CD422983705CE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulist.cpp */,
+				CA6CB0BDE5EB4303A155D25F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulistformatter.cpp */,
+				DC1EE46745EF4B029522B41D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc.cpp */,
+				5193F9D35BD744B696CAFCE5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_keytype.cpp */,
+				E37016FFF5A342C9816749AF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_tag.cpp */,
+				01431E5BE5C746F6A4489E94 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umapfile.cpp */,
+				322AFC5B5C7544EFB81C6E2F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umath.cpp */,
+				B25A0A66069A4AE99255981B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umutex.cpp */,
+				84AFED5DC7EE4129B4BEE4D1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unames.cpp */,
+				00EC3C108733406AA2201A9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifiedcache.cpp */,
+				6B1A0BD310F44F28A91B8B6C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifilt.cpp */,
+				2217E3759008470E979DD308 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifunct.cpp */,
+				2B01C1920A2F470A8053F3E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset.cpp */,
+				2075A92E1A7C45A38C99D518 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_closure.cpp */,
+				E34FC02241CB49A1884D08E4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_props.cpp */,
+				2872EEFA9FC341CAA46C1D01 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unisetspan.cpp */,
+				BDFA345F53784F69BD534CB7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr.cpp */,
+				0F908231F493426398D4AFF0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case.cpp */,
+				EFB2BB088ABC411C8D91EC3C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case_locale.cpp */,
+				DD3BBF9F15FD427B83973375 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_cnv.cpp */,
+				FEF76F09E9E84470B5E9EB92 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_props.cpp */,
+				73821D81C23E48A5B699E9C7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_titlecase_brkiter.cpp */,
+				F2A82D4AB4AD42EAB5A97F5A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unorm.cpp */,
+				D5C8412F24594BC2B62B4314 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unormcmp.cpp */,
+				188080BDAA7A4AF6927BE26E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uobject.cpp */,
+				995C310A560F4606AFE09B97 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uprops.cpp */,
+				2A6A5F07EF624FDFBAE8224E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ures_cnv.cpp */,
+				B35EB9F808EE4CA08378DDAF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresbund.cpp */,
+				C9385143768F4AB5A49BECB2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresdata.cpp */,
+				861746255740437DA538D4DA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usc_impl.cpp */,
+				7A25BF9004CC495A95AB7BF9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript.cpp */,
+				DCF90372C24646D68E9B2067 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript_props.cpp */,
+				64B63DA74D84413D820C58EF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset.cpp */,
+				1B1DB47302814698A06FEC63 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset_props.cpp */,
+				D36F0C2242A1429B87BF5F43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usetiter.cpp */,
+				A82A1016FC6740CF9844B796 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ushape.cpp */,
+				DAD170012B9840D1A80CA37F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usprep.cpp */,
+				3B2CE65D2BDD4C30A36D2195 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustack.cpp */,
+				8989E432B2804E668E2A5C6B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_cnv.cpp */,
+				9D786A62F8F04CA88E588C15 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_titlecase_brkiter.cpp */,
+				00DA14628EB243D4A2FDC050 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_wcs.cpp */,
+				0FC70641B5DF41DD8772C5B2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase.cpp */,
+				CC90A10735714750B5292031 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase_locale.cpp */,
+				88070CAF61F646299062529F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrenum.cpp */,
+				D54C0C292A8F4DCA867FFFD8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrfmt.cpp */,
+				BF3D219F3C9641BD85104768 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustring.cpp */,
+				8C017FFB2B7F4F45879E7DF5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrtrns.cpp */,
+				C77275AFC81442578CDE1A96 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utext.cpp */,
+				528AAE381A3A473C8511F99D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utf_impl.cpp */,
+				EDAC612E2012468D81EA2649 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util.cpp */,
+				0DF1CE8A2C0D4A3DBE6B6FA0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util_props.cpp */,
+				E73CBB008186441F88166421 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrace.cpp */,
+				14032FC83518454283054FCE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie.cpp */,
+				13980E8E50C440D684B1D4DC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2.cpp */,
+				816686B244744FB0B938698A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2_builder.cpp */,
+				8119003EB92C4628A82265F2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uts46.cpp */,
+				9C85EB4FBD304D69B91E7BE1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utypes.cpp */,
+				3430858497844A44B1E3106C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvector.cpp */,
+				1EBF2B7616574F1396E9A77C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr32.cpp */,
+				70B76F7EBAB94A7FA2EDC64E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr64.cpp */,
+				09563CB47DCA4D23AF96A6A3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/wintz.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		97E267B4361C42E5A2A75595 = {
+			isa = PBXGroup;
+			children = (
+				62C416F4F0064BAB9340436C /* icuuc */,
+				76755332501A450196AB3EC6 /* ALL_BUILD */,
+				6F2E00ACF2914E7E8FD01F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA58B3E55DD348E6BB01E048 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641D0652434F4A6BA5C7AD8B /* icuuc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EABE5EBACDB4D869CBB2820 /* Build configuration list for PBXNativeTarget "icuuc" */;
+			buildPhases = (
+				9D6892C382484D93886B51B6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B2AEF4B6D3F44AA94C1906A /* PBXTargetDependency */,
+			);
+			name = icuuc;
+			productName = icuuc;
+			productReference = A1FEE50F61AD4F4AB162A217 /* icuuc */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6B3C1FACDF14E289823D66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = A56202E1F459430BA9636EF5 /* Build configuration list for PBXProject "ICU-uc" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				97BF581235A644D398BCAF70 /* Debug */,
+				7628A76D106C499694A88A32 /* Release */,
+				28437A003B7E49D5AA895EC1 /* MinSizeRel */,
+				8C8DD659A1114365964F1F2A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 97E267B4361C42E5A2A75595;
+			projectDirPath = "/Users/nan/src/mysql-ios/mysql/extra/icu/source/common";
+			projectRoot = "";
+			targets = (
+				A622882C725D468DB00F5321 /* ALL_BUILD */,
+				5C26179940BA4E0D99AD0253 /* RUN_TESTS */,
+				71C7AFE5BA9946A9B170BAE7 /* ZERO_CHECK */,
+				641D0652434F4A6BA5C7AD8B /* icuuc */,
+				99FD70A0E6014CC6B91CAA8A /* install */,
+				D8D31D0436AE4FC38F072A2F /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F9FE6A69874D48A173E6E3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		09C14BF4E6AE4558829E997D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build/extra/icu/source/common -f /Users/nan/src/mysql-ios/build/extra/icu/source/common/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		35B5FB4A5A4E46E88067623A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build/extra/icu/source/common -f /Users/nan/src/mysql-ios/build/extra/icu/source/common/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		39A52E17C9C1409D937808F4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4612983CE5BA4F0FB5C0DACF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5C8767DAA890481A9735E032 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C2E64113F4494D1BABCC5ECF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build/extra/icu/source/common -f /Users/nan/src/mysql-ios/build/extra/icu/source/common/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C34B2BAE7EF24766A1A974EE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8BC5AA976064B9CBAF21E6C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build/extra/icu/source/common -f /Users/nan/src/mysql-ios/build/extra/icu/source/common/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FB8427C81DFC493AB9CB1758 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nan/src/mysql-ios/build/extra/icu/source/common -f /Users/nan/src/mysql-ios/build/extra/icu/source/common/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D6892C382484D93886B51B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094AF94437C14C75BC6C5D43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/appendable.cpp */,
+				CA12DC9B4D0F4F7BBC9D05D2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bmpset.cpp */,
+				8FF8527C3C6740048ECD8D7B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkeng.cpp */,
+				FA2CB6FBC2884B52B29C6433 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/brkiter.cpp */,
+				70D973516AFD4E01B7393F9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestream.cpp */,
+				001F69801CB941AFB2A9E0DF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrie.cpp */,
+				BFD7AD8128D641EAAB3FE594 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestriebuilder.cpp */,
+				F988F0FA3C0F4012BD35BDD8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/bytestrieiterator.cpp */,
+				BC761F9533854BD0AC1C4931 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/caniter.cpp */,
+				DCA50C4832404EE2BDA39D9A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/chariter.cpp */,
+				7F894C4D62BE422987DEDBD4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/charstr.cpp */,
+				10AEF48998A341D4B4DAF262 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cmemory.cpp */,
+				3839F7EEEE144A649E9D0CC7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstr.cpp */,
+				1B2B29C8C02546B488D8CE43 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cstring.cpp */,
+				998BCDE1CDD84132A1C3323F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/cwchar.cpp */,
+				7E134A3E9CAF4C8CA8810AC5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictbe.cpp */,
+				9B53FADEBF5D4CD9AF54A120 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dictionarydata.cpp */,
+				F815A8C29DA740EB8FB4B9F9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/dtintrv.cpp */,
+				96500E1CA939467598C287EA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/edits.cpp */,
+				DF2B1C859204458AB899B18E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/errorcode.cpp */,
+				F91F2466B7F44A5CAC04FD64 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filteredbrk.cpp */,
+				3D750D2B42BB49749BE4E347 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/filterednormalizer2.cpp */,
+				A572A3ADB2D043EDA2323922 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icudataver.cpp */,
+				CAB41090359346ACA67D3F81 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/icuplug.cpp */,
+				B6F7738BDE9C4A379FB8AB94 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/listformatter.cpp */,
+				918422B5F7D44846B86E0795 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loadednormalizer2impl.cpp */,
+				6E7622395DB445409CA74C11 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locavailable.cpp */,
+				5C783FBAAB02468A800A59FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locbased.cpp */,
+				E1E3250C361248FC97F6B393 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdispnames.cpp */,
+				674EC3FA28A94356AF8060B6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locdspnm.cpp */,
+				0AF99AE9EBEB4B909194E4E9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locid.cpp */,
+				663634AE77A142ADAED49895 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/loclikely.cpp */,
+				2B8B76067A9640DF8FA53177 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locmap.cpp */,
+				888CEB355BED4E57B937DBDE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locresdata.cpp */,
+				7C90577631A1429F93B5520B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/locutil.cpp */,
+				4FBE60FDD9F84ED29103393C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/messagepattern.cpp */,
+				03D440470C1B491992A8AD57 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2.cpp */,
+				C351A654B3784FCDA36D79F3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normalizer2impl.cpp */,
+				978001DBBB5545C88D916E0D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/normlzr.cpp */,
+				62215F80A7774FBA9C04BC42 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/parsepos.cpp */,
+				11F0279268AD4F039F15CCDB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/patternprops.cpp */,
+				5E1AFBAC1BA84286A913F96C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/pluralmap.cpp */,
+				BFF265DA375D44CDB848818F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propname.cpp */,
+				E834BC3C52844624B1972C60 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/propsvec.cpp */,
+				C8C16F01C6F1444FB3F72FC0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/punycode.cpp */,
+				64853DB7FB714B44878C849B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/putil.cpp */,
+				22580D774728469DA752E7FB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbi.cpp */,
+				E5A6525E5BFD4C99B5B6CF2B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbidata.cpp */,
+				6630C12E8EAE46E2ADC4CB9E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbinode.cpp */,
+				451088A4F01746208FAD8C7E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbirb.cpp */,
+				C7711100EBF44E438B32A823 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbiscan.cpp */,
+				0698C41666504564926C7371 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbisetb.cpp */,
+				49C1CAFA48D94B4A9B4BD6E2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbistbl.cpp */,
+				0D246F3215174C8B8AE361F1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/rbbitblb.cpp */,
+				4595986FA9FC4D86B4CD5EEE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund.cpp */,
+				631F888923754BF0BFDAB19D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resbund_cnv.cpp */,
+				5960C118B66B41B594437CBF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/resource.cpp */,
+				B6F074703BC44BADA0A597BE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ruleiter.cpp */,
+				ED4A0D743EAF47C1AD37E352 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/schriter.cpp */,
+				66CC07B8110F4E5587F44E79 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/serv.cpp */,
+				B86CEDE1498A489A8B280471 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlk.cpp */,
+				54EE3AB3987D4CF89A7FE3A7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servlkf.cpp */,
+				A274C164708C4E3292B45923 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servls.cpp */,
+				249D4E100459453CB8C61B6C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servnotf.cpp */,
+				434A609FDD224B40BC492BCB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servrbf.cpp */,
+				D4E31A9FF3DF410AB28F56AF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/servslkf.cpp */,
+				D0466992DC414C34804486CD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/sharedobject.cpp */,
+				974FD8FF322A40B9A011D283 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/simpleformatter.cpp */,
+				024A171ABAB64F1EB41B6407 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringpiece.cpp */,
+				E73610E9F16E44E5833A3D2F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/stringtriebuilder.cpp */,
+				921B57AF786945B89FE7DA98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uarrsort.cpp */,
+				9C58EAB601D642DE90D1E2BC /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi.cpp */,
+				55461CA13F7A45569AC18DCF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidi_props.cpp */,
+				7B4E0F77F5604B0086133E98 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiln.cpp */,
+				0955F3D4A382497AB57519AE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubiditransform.cpp */,
+				FB465F1992CC4FC4994B2C48 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubidiwrt.cpp */,
+				11575583A7CB44FD823BEA2D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ubrk.cpp */,
+				6708D9D7C6FC4344A0C7C356 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucase.cpp */,
+				2DA47E9EF9334DA5A8D35EB4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap.cpp */,
+				DACA73C7EDA745C297F41597 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucasemap_titlecase_brkiter.cpp */,
+				E4F0A6B02B844548BDF989C6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucat.cpp */,
+				7865A37EE9E941E7B6DB1B0E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchar.cpp */,
+				15863B1479FD43539476B2CD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrie.cpp */,
+				481BCA58C37C4C62820AF9A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstriebuilder.cpp */,
+				938A8C61F5244DC5B5A7F498 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucharstrieiterator.cpp */,
+				C43075CE83C946478264F7A1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uchriter.cpp */,
+				27FFC15F097C48C5AD1F1FBD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucln_cmn.cpp */,
+				F8E0834309504595B29473F5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucmndata.cpp */,
+				03C30C1F2719467A852F025A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv.cpp */,
+				E7F73A2558D9449CBAEF601A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv2022.cpp */,
+				D8877A1F5554497E8E5E139B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_bld.cpp */,
+				2A4283CC152F46F681BE8D8D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cb.cpp */,
+				D0EAEFA91B3B433380D82FB8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_cnv.cpp */,
+				272E301EBB8E48D3889FE65F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ct.cpp */,
+				014B171079A144C4857CA6BE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_err.cpp */,
+				0687AAEE66484B549FAD31CB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_ext.cpp */,
+				BB353C2B24F54F04838AE0F2 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_io.cpp */,
+				FDA004133A97478FB9CD8CB1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_lmb.cpp */,
+				F5AF6EE2DA2D410B8C10A8BD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_set.cpp */,
+				E02F1929EDDF400FA9D155A3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u16.cpp */,
+				29B0CCB437954726835C4260 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u32.cpp */,
+				07218EE59ADC415FAA103EB9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u7.cpp */,
+				42CEDECC46054EB9B3C06D27 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnv_u8.cpp */,
+				30FEE5DAF77D4959A8B404A5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvbocu.cpp */,
+				99FD9EA6B7D84F1B84F095D3 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvdisp.cpp */,
+				3D2913A6B69540E1AF368CA1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvhz.cpp */,
+				2479133DA0704009A41D389F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvisci.cpp */,
+				76873DE467824E2CB530C41E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvlat1.cpp */,
+				70C8B39E4AD34D2F855386A1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvmbcs.cpp */,
+				65CF23F7939441D8AB48471A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvscsu.cpp */,
+				C6C87A8B1F084D1282B6574B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucnvsel.cpp */,
+				E6B1A0373FA84BB9800458FD /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucol_swp.cpp */,
+				AFD9679B998C45CDBF19BAD9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ucurr.cpp */,
+				EBE6CF0E4EEA4ADB9366248F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udata.cpp */,
+				4520FE714DD74896B31E584A /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udatamem.cpp */,
+				8CE47002F062432D9FA0D218 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/udataswp.cpp */,
+				761A4077304B4464941DA03B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uenum.cpp */,
+				D6FEC8462D1B4128BA295666 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash.cpp */,
+				FACE53ADD97443BC91240350 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uhash_us.cpp */,
+				5FE070FB2F53455FA664B75B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uidna.cpp */,
+				362153F589D94A68B066EEF5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinit.cpp */,
+				4E153BBD76724F4193667968 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uinvchar.cpp */,
+				DF286DA583ED4BFBA228C460 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uiter.cpp */,
+				A3447E138C784B08864BA61B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulist.cpp */,
+				90CAA5F15CCD4571B3599AE4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ulistformatter.cpp */,
+				0DFF33353EAF48E39B679C05 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc.cpp */,
+				C0C145B71137497C81838083 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_keytype.cpp */,
+				93060995F02C4154AEB8856E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uloc_tag.cpp */,
+				0757B361442E417AA833C70E /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umapfile.cpp */,
+				5E3E0FB5D8804B50A793B9E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umath.cpp */,
+				DC2225ECB5E44F519957472C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/umutex.cpp */,
+				C5E42D8312A449CD954E5D3D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unames.cpp */,
+				B96A9B9B0C624B63A7A04237 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifiedcache.cpp */,
+				ED5D7C2F54B6433892CEAE83 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifilt.cpp */,
+				35AF7EE4750B4D93B4551A95 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unifunct.cpp */,
+				57761472DF054B00847503BA /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset.cpp */,
+				DEA05112422447289289021B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_closure.cpp */,
+				55A4C472EC654199A82235E1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uniset_props.cpp */,
+				7EBC0451C0BA4F71BBA9C92F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unisetspan.cpp */,
+				0E7D41B1F9A941B0997A67F0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr.cpp */,
+				E3C2A6BB28B44F48BEB8F959 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case.cpp */,
+				1AF9E23EB12743DEBB35EBD0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_case_locale.cpp */,
+				1AEA2698377247099F66C4A9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_cnv.cpp */,
+				1EAF7646E84F40AA8CCE9CEB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_props.cpp */,
+				58A84F17B815498A9E6A2F7F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unistr_titlecase_brkiter.cpp */,
+				14F56561EECA4A48A80AD1B9 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unorm.cpp */,
+				0BB9E4C8D8D64A1582C54519 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/unormcmp.cpp */,
+				B3E81D40D6C541359350C420 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uobject.cpp */,
+				C7B3D4E1451549B1B6EA852B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uprops.cpp */,
+				EF6ED537195143559D6F2D86 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ures_cnv.cpp */,
+				BBDAFD7DC75B464A93B286D6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresbund.cpp */,
+				1B0C6DFFC99240B1B56AD756 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uresdata.cpp */,
+				9F76E0D0C00949DABFD8163D /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usc_impl.cpp */,
+				D76F84664E5C475B8F32F38C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript.cpp */,
+				621E0C39AE8642BB99B26F69 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uscript_props.cpp */,
+				21AB3E054AC541129CD5FB24 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset.cpp */,
+				591E66123F7C42FA9C28CDA4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uset_props.cpp */,
+				043227545DA047A48FADADC1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usetiter.cpp */,
+				77F5E3B0FBFB45998AD022B1 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ushape.cpp */,
+				23F987A1ADD148C9BF34578C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/usprep.cpp */,
+				0A527E93852248EB8BE31B84 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustack.cpp */,
+				7C39489094F6457C8EF4875C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_cnv.cpp */,
+				A0BFCAAE9ACF4578B5F409CE /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_titlecase_brkiter.cpp */,
+				876ECB63BDCC4FF0BDD88B9C /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustr_wcs.cpp */,
+				E794A039864D49FBBB5B875B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase.cpp */,
+				48A92E55F159405BBF22C45F /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrcase_locale.cpp */,
+				3527C4B1136D49979C1B5823 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrenum.cpp */,
+				114B0F446F114DC2A7850D48 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrfmt.cpp */,
+				465F5B75A24043D6B0121893 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustring.cpp */,
+				26442A35BB6D4DA2B48BFCBB /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/ustrtrns.cpp */,
+				D275CF9DB7CE4CC6883162FF /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utext.cpp */,
+				33DF9F78C2EA46DEA1F55FA0 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utf_impl.cpp */,
+				69975B66B5324649BEC5F851 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util.cpp */,
+				C2D87F7EAB7D45198CE224D8 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/util_props.cpp */,
+				4DBAE98FD06246558967B0ED /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrace.cpp */,
+				44BBDDB450C542FE93CE5A0B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie.cpp */,
+				B8FD8FD560E84A1BB25ED2A4 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2.cpp */,
+				904866D570994D6CBF82228B /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utrie2_builder.cpp */,
+				7483D9E2188C4D3DAACC6ED5 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uts46.cpp */,
+				0B8A689C7DD7465D95838BC7 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/utypes.cpp */,
+				8470E379EAC14CDB9EE93034 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvector.cpp */,
+				A6785B1481E0425C87410EF6 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr32.cpp */,
+				6EC28A4FFA6E44D4A45B8225 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/uvectr64.cpp */,
+				2E00C5BD00F94360B5F4D843 /* /Users/nan/src/mysql-ios/mysql/extra/icu/source/common/wintz.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49AF99000FE6416F94993798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 641D0652434F4A6BA5C7AD8B /* icuuc */;
+			targetProxy = AEB8BA39EFEC4C20AD2AD61C /* PBXContainerItemProxy */;
+		};
+		51EF332486E247D5B80F2FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A622882C725D468DB00F5321 /* ALL_BUILD */;
+			targetProxy = A83B255E6BCE4458AA7215C5 /* PBXContainerItemProxy */;
+		};
+		5B2AEF4B6D3F44AA94C1906A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C7AFE5BA9946A9B170BAE7 /* ZERO_CHECK */;
+			targetProxy = EE2C21355F464ADD9F0A25D7 /* PBXContainerItemProxy */;
+		};
+		8940EE6413E94E8DB798817D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C7AFE5BA9946A9B170BAE7 /* ZERO_CHECK */;
+			targetProxy = C9275521346A4E9BA0B8EA04 /* PBXContainerItemProxy */;
+		};
+		DB88988B67C24712B54ED439 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A622882C725D468DB00F5321 /* ALL_BUILD */;
+			targetProxy = C2FA30C212144FE99D58F469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19B7C4087D7949BD82DFD37C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4E08F77D69194B9EA9DC9E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common/build";
+			};
+			name = Release;
+		};
+		559D2A63E74C4384B0DA1560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		55C4FC1174F54E6F8431ABB0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		56480D93B4F7464488DDAB1A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'",U_COMMON_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -ffunction-sections -fdata-sections -fPIC    -fno-omit-frame-pointer -std=c++11  -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icuuc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5D6D4822644B4E3588C69CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5EE57A1B315D4757BA1FDA78 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72B0DC2A691343038E3BA83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		72CE49A8C59A440380AEC1E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F0235F97FB74563AB6F0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7F5A835002624A62B52E0A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'",U_COMMON_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -std=c++11  -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icuuc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8345CFD307384547B2DBEAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8F80782D94984EFF8FE26DF2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		923D0021609B45EC82E17504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common/build";
+			};
+			name = Debug;
+		};
+		9FDB7EF2D1214A1ABB9A6BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AA757FF04D1F423C86C31557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AAF1FA5EBC5E49758291BF1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'",U_COMMON_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -DDBUG_OFF  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icuuc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B2FB6B34BF19453D929B6782 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF09344A72054E3CA23A0785 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CA277712C99645E3975A083A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CEA1C150AF914E24B02ACF67 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DDA66A6168DD4D4EB8EFD68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HAVE_CONFIG_H,HAVE_OPENSSL,RAPIDJSON_NO_SIZETYPEDEFINE,__STDC_LIMIT_MACROS,__STDC_FORMAT_MACROS,_USE_MATH_DEFINES,HAVE_LIBEVENT1,"'UNISTR_FROM_STRING_EXPLICIT=explicit'","'UNISTR_FROM_CHAR_EXPLICIT=explicit'",U_COMMON_IMPLEMENTATION);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/nan/src/mysql-ios/mysql/extra/icu/source/common");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-fPIC    -fno-omit-frame-pointer -std=c++11  -DENABLED_DEBUG_SYNC -DSAFE_MUTEX  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = icuuc;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E6D30CCCCD38482EB90A7DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		ED79161D89BA4CB9BA7E9D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FA0BA845BC4F4162ABB129F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC14692D461B4104BA88A608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FDE128F959614AE88F02503D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common/build";
+			};
+			name = MinSizeRel;
+		};
+		FF0883C7C40649B398F295AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SYMROOT = "/Users/nan/src/mysql-ios/build/extra/icu/source/common/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06B0C84C40A24D3E8F60DEAB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D30CCCCD38482EB90A7DC0 /* Debug */,
+				5D6D4822644B4E3588C69CDA /* Release */,
+				72CE49A8C59A440380AEC1E4 /* MinSizeRel */,
+				19B7C4087D7949BD82DFD37C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		237434CDE6714BE6BDFF9615 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED79161D89BA4CB9BA7E9D63 /* Debug */,
+				AA757FF04D1F423C86C31557 /* Release */,
+				8F80782D94984EFF8FE26DF2 /* MinSizeRel */,
+				CEA1C150AF914E24B02ACF67 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6EABE5EBACDB4D869CBB2820 /* Build configuration list for PBXNativeTarget "icuuc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA66A6168DD4D4EB8EFD68E /* Debug */,
+				7F5A835002624A62B52E0A82 /* Release */,
+				AAF1FA5EBC5E49758291BF1C /* MinSizeRel */,
+				56480D93B4F7464488DDAB1A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7504AD0C26BF4A999EC433D5 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559D2A63E74C4384B0DA1560 /* Debug */,
+				7F0235F97FB74563AB6F0704 /* Release */,
+				55C4FC1174F54E6F8431ABB0 /* MinSizeRel */,
+				B2FB6B34BF19453D929B6782 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		816B9D694AA14200BFA15C75 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B0DC2A691343038E3BA83E /* Debug */,
+				9FDB7EF2D1214A1ABB9A6BBB /* Release */,
+				BF09344A72054E3CA23A0785 /* MinSizeRel */,
+				FA0BA845BC4F4162ABB129F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A2CB8FF5F6E40AD9F4C4549 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC14692D461B4104BA88A608 /* Debug */,
+				8345CFD307384547B2DBEAE3 /* Release */,
+				5EE57A1B315D4757BA1FDA78 /* MinSizeRel */,
+				CA277712C99645E3975A083A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A56202E1F459430BA9636EF5 /* Build configuration list for PBXProject "ICU-uc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923D0021609B45EC82E17504 /* Debug */,
+				4E08F77D69194B9EA9DC9E87 /* Release */,
+				FDE128F959614AE88F02503D /* MinSizeRel */,
+				FF0883C7C40649B398F295AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6B3C1FACDF14E289823D66E /* Project object */;
+}
